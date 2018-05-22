@@ -2472,3 +2472,7 @@ img[height] {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.hidden {
+	display: none;
+}
