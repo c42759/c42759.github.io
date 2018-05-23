@@ -2476,3 +2476,9 @@ img[height] {
 .hidden {
 	display: none;
 }
+
+span.label { display: inline-block; border-radius: 3px;}
+span.label.php { background-color: purple; color: white; }
+span.label.js { background-color: yellow; color: #333; }
+span.label.js { background-color: yellow; color: #333; }
+span.label.js { background-color: #333; color: yellow; }
