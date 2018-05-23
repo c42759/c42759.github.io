@@ -2477,8 +2477,8 @@ img[height] {
 	display: none;
 }
 
-span.label { display: inline-block; border-radius: 3px;}
+span.label { display: inline-block; border-radius: 3px; padding: 0 7px;}
 span.label.php { background-color: purple; color: white; }
 span.label.js { background-color: yellow; color: #333; }
 span.label.js { background-color: yellow; color: #333; }
-span.label.js { background-color: #333; color: yellow; }
+span.label.unix { background-color: #333; color: yellow; }
