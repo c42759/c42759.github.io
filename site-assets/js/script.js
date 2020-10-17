@@ -1,10 +1,7 @@
+d = new Date()
+age = d.getFullYear() - 1991
+if ((d.getMonth() < 10) || (d.getMonth() == 10 && d.getDate() <= 28)) {
+	age -= 1
+}
 
-$(document).on("keydown", function (e) {
-	if (e.ctrlKey  &&  e.altKey  &&  e.key === "i") {
-		if ($(".contacts").css("display") == "none") {
-			$(".contacts").fadeIn();
-		} else {
-			$(".contacts").fadeOut();
-		}
-	}
-});
+$("#age").text(age)
