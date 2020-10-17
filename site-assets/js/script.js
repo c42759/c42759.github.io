@@ -5,3 +5,11 @@ if ((d.getMonth() < 10) || (d.getMonth() == 10 && d.getDate() <= 28)) {
 }
 
 $("#age").text(age)
+
+function changeColorSchema() {
+	if ($("body").hasClass("white")) {
+		$("body").removeClass("white").addClass("black");
+	} else {
+		$("body").removeClass("black").addClass("white");
+	}
+}

@@ -41,6 +41,8 @@ h4 {
 	color: white;
 	min-height: 100vh;
 	text-align: center;
+	border-left: 1px solid #5655da;
+	border-right: 1px solid #5655da;
 }
 
 .sidebar .fixed {
@@ -77,6 +79,7 @@ h4 {
 
 .avatar {
 	max-width: 80%;
+	filter: grayscale(100%);
 }
 
 .position {
