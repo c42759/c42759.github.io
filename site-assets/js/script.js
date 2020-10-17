@@ -13,3 +13,5 @@ function changeColorSchema() {
 		$("body").removeClass("black").addClass("white");
 	}
 }
+
+$(".changeColorSchema strong").on("click", changeColorSchema)
