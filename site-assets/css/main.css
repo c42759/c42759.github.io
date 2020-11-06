@@ -45,13 +45,6 @@ h4 {
 	border-right: 1px solid #5655da;
 }
 
-.sidebar .fixed {
-	position: fixed;
-	width: calc(285px - 30px);
-}
-
-.sidebar .social {}
-
 .sidebar .social .btn {
 	color: white;
 	opacity: 1;
@@ -92,4 +85,27 @@ h4 {
 
 .pt {
 	display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.sidebar .fixed {
+		position: fixed;
+		width: calc(285px - 30px);
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
