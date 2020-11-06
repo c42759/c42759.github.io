@@ -94,10 +94,7 @@ h4 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.sidebar .fixed {
-		position: fixed;
-		width: calc(285px - 30px);
-	}
+	
 }
 
 /* Large devices (desktops, 992px and up) */
