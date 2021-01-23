@@ -1,0 +1,151 @@
+<html>
+
+<head>
+	<title>Carlos 'c4' Santos</title>
+
+	<!-- begin favicon -->
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="site-assets/favicon/favicon_57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="site-assets/favicon/favicon_114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="site-assets/favicon/favicon_72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="site-assets/favicon/favicon_144.png" />
+
+	<link rel="icon" href="site-assets/favicon/favicon_16.png" sizes="16x16" type="image/png" />
+	<link rel="icon" href="site-assets/favicon/favicon_32.png" sizes="32x32" type="image/png" />
+	<link rel="icon" href="site-assets/favicon/favicon_48.png" sizes="48x48" type="image/png" />
+	<link rel="icon" href="site-assets/favicon/favicon_64.png" sizes="64x64" type="image/png" />
+	<link rel="icon" href="site-assets/favicon/favicon_128.png" sizes="128x128" type="image/png" />
+
+	<link rel="icon" href="site-assets/favicon/favicon_32.png" />
+	<!--[if IE]><link rel="shortcut icon" href="site-assets/favicon/favicon.ico"><![endif]-->
+
+	<meta name="msapplication-TileColor" content="#ebffe3" />
+	<meta name="msapplication-TileImage" content="site-assets/favicon/favicon_144.png" />
+
+	<meta property="og:site_name" content="Carlos 'c4' Santos" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://c42759.github.io" />
+	<meta property="og:image" content="https://c42759.github.io/site-assets/images/avatar.jpg" />
+	<meta property="og:title" content="Carlos 'c4' Santos" />
+	<meta property="og:description"
+		content="Hello, My name is Carlos Santos, I’m 28 years old Software Engineer from the cozy streets of Aveiro. I being workin as a Software Developer since earlier 2012 and ganing experience in various positions." />
+
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="keywords" content="" />
+	<meta name="description"
+		content="Hello, My name is Carlos Santos, I’m 28 years old Software Engineer from the cozy streets of Aveiro. I being workin as a Software Developer since earlier 2012 and ganing experience in various positions." />
+	<meta name="robots" content="index" />
+	<meta name="author" content="Carlos Santos at one-shift.com" />
+	<meta name="author-code" content="Carlos Santos" />
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
+
+	<!-- Spacers -->
+	<link rel="stylesheet" href="./site-assets/css/spacers.min.css">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
+
+	<!-- Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+		crossorigin="anonymous" />
+
+	<!-- style -->
+	<link rel="stylesheet" href="./site-assets/css/main.css">
+	<link rel="stylesheet" href="./site-assets/css/theme-white.css">
+	<link rel="stylesheet" href="./site-assets/css/theme-black.css">
+</head>
+
+<body class="white">
+	<!-- CKEDITOR CODE -->
+	<div class="spacer sm-60"></div>
+	<div id="editor" class="editor"></div>
+	<script src="https://cdn.ckeditor.com/ckeditor5/23.1.0/balloon/ckeditor.js"></script>
+	<script>
+		var ckeditor
+		BalloonEditor
+			.create(document.querySelector('#editor'))
+			.then(editor => { window.ckeditor = editor })
+			.catch(error => {
+				console.error(error);
+			});
+	</script>
+	<!-- CKEDITOR CODE -->
+	<div class="spacer sm-60"></div>
+	<div class="container list"></div>
+	<div class="spacer sm-60"></div>
+
+	<div class="templates">
+		<div class="row post">
+			<div class="col">
+				<h2 class="title"></h2>
+				<p><span class="published_at"></span></p>
+				<div class="description"></div>
+				<div class="spacer sm-15"></div>
+				<hr>
+				<div class="spacer sm-30"></div>
+			</div>
+		</div>
+	</div>
+	<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+	<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+
+	<!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-analytics.js"></script>
+
+	<!-- Add Firebase products that you want to use -->
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+			 https://firebase.google.com/docs/web/setup#available-libraries -->
+
+	<script src="site-assets/js/firebase.js"></script>
+
+	<script>
+		templates_container = $(".templates")
+		list_container = $(".list")
+		post_template = templates_container.find(".post")
+
+		blog.getPosts(5).then(function (posts) {
+			var reversed_keys = Object.keys(posts).reverse()
+
+			reversed_keys.forEach(function (k) {
+				var post = post_template.clone()
+				title = post.find(".title")
+				description = post.find(".description")
+				published_at = post.find("p span.published_at")
+
+				post.attr("data-id", k)
+				title.text(posts[k].title)
+				description.text(posts[k].description)
+				published_at.text(new Date((posts[k].published_at) ? posts[k].published_at : posts[k].created_at))
+
+				list_container.append(post)
+			})
+		})
+	</script>
+</body>
+
+</html>
