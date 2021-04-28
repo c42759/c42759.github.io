@@ -6,11 +6,24 @@ img {
 	max-width: 100%;
 }
 
+a {
+	color: #f74470;
+}
+
+a:hover {
+	color: #f74470;
+}
+
 p {
 	font-family: 'Poppins', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Poppins', sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -53,7 +66,7 @@ h4 {
 
 .sidebar .social .btn:hover {
 	background-color: transparent;
-	opacity: .6;
+	opacity: 0.6;
 }
 
 .sidebar .changeColorSchema {
@@ -89,20 +102,16 @@ h4 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-	
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
 }
