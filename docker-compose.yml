@@ -1,0 +1,14 @@
+version: '3'
+services:
+    frontend:
+        build:
+            context: ./frontend
+        container_name: c42759-frontend
+        restart: unless-stopped
+        volumes:
+            - '${APP_FRONTEND_PATH}:/app'
+            - './logs/frontend:/root/.npm/_logs/'
+        # command: ./run_server.sh
+        command: tail -f /dev/null
+        ports:
+            - '${REACT_EXPOSE_PORT}:3000'
