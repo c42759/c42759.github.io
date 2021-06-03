@@ -6,7 +6,7 @@ import Skills from './skills';
 
 function Main() {
 	return (
-		<div className='bg-white dark:bg-transparent col-span-2 p-20'>
+		<div className='bg-white dark:bg-transparent md:col-span-2 p-10 md:p-20'>
 			<AboutMe />
 			<Skills />
 			<ProfessionalPath />

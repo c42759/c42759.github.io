@@ -18,7 +18,7 @@ function Sidebar() {
 		<div className='self-auto pt-20 pb-20 border-gray-300 dark:border-gray-600 border-l border-r'>
 			{/* Avatar */}
 			<img
-				className='filter grayscale w-72 rounded-full object-center mb-10 mx-auto'
+				className='filter grayscale max-w-3/4 rounded-full object-center mb-10 mx-auto'
 				src={`${process.env.PUBLIC_URL}/avatar.jpg`}
 				alt='Carlos Santos Avatar'
 			/>
