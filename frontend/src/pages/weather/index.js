@@ -5,7 +5,7 @@ import { GoLocation } from 'react-icons/go';
 import { WiRaindrop, WiStrongWind, WiBarometer } from 'react-icons/wi';
 
 function Weather() {
-	const api_key = '1306411eddbacdfed51b766b872e25ec'; //'5c27dd1c718ca2aa0349c48d388fbbec';
+	const api_key = '__API_KEY_HERE__';
 	const cityName = 'Aveiro';
 	const stateCode = 'AV';
 	const countryCode = 'PT';
