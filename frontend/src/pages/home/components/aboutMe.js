@@ -20,7 +20,7 @@ function AboutMe() {
 
 			<p className='mb-10'>
 				Hello, My name is Carlos Santos, I’m {age} years old Software Engineer from the cozy streets of Aveiro. I being workin as a Software Developer
-				since earlier 2012 and ganing experience in various positions.
+				since earlier 2012 and gaining experience in various positions.
 			</p>
 
 			<p className='mb-5'>
