@@ -18,7 +18,7 @@ function EducationPath() {
 			course: 'Computer Engineering',
 			duration: {
 				start_at: 'September 2010',
-				end_at: 'January 2022',
+				end_at: 'January 2012',
 			},
 			description:
 				'I attended the course on Technologies and Information Systems (now called Computer Engineering) during the period indicated, having the opportunity to absorb knowledge in the area of Management, Digital Systems, Operating Systems, and Programming (Java), among other subjects.',
@@ -39,10 +39,8 @@ function EducationPath() {
 		<div>
 			<h3 className='uppercase text-pink-500 font-semibold mb-10'>Education Path</h3>
 
-			{payload.map((instance) => {
-				let randomKey = Math.random().toString(36).substring(7) + Date.now();
-
-				return <EducationItem key={randomKey} instance={instance} />;
+			{payload.map((instance, key) => {
+				return <EducationItem key={key} {...instance} />;
 			})}
 		</div>
 	);
