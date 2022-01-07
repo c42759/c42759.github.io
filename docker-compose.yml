@@ -7,6 +7,7 @@ services:
         restart: unless-stopped
         volumes:
             - '${APP_FRONTEND_PATH}:/app'
+            - './docs:/app/build'
             - './logs/frontend:/root/.npm/_logs/'
         # command: ./run_server.sh
         command: tail -f /dev/null
