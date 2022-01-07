@@ -1,8 +1,10 @@
 import { React } from 'react';
+
 import AboutMe from './aboutMe';
 import EducationPath from './educationPath';
 import ProfessionalPath from './professionalPath';
 import Skills from './skills';
+import MySetup from './mySetup';
 
 function Main() {
 	return (
@@ -11,6 +13,7 @@ function Main() {
 			<Skills />
 			<ProfessionalPath />
 			<EducationPath />
+			<MySetup />
 		</div>
 	);
 }
