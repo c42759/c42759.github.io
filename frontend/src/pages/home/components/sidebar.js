@@ -27,7 +27,7 @@ function Sidebar() {
 			<h1 className='uppercase text-center mb-1'>Carlos Santos</h1>
 			<h3 className='uppercase text-center  mb-10'>Software Engineer</h3>
 
-			{/* Soaicl List Link */}
+			{/* Social List Link */}
 			<SocialList />
 
 			{/* Languages */}
