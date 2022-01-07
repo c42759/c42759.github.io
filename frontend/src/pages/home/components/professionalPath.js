@@ -64,10 +64,8 @@ function ProfessionalPath() {
 		<div className='mb-20'>
 			<h3 className='uppercase text-pink-500 font-semibold mb-10'>Professional Path</h3>
 
-			{payload.map((instance) => {
-				let randomKey = Math.random().toString(36).substring(7) + Date.now();
-
-				return <ProfessionalItem key={randomKey} instance={instance} />;
+			{payload.map((instance, key) => {
+				return <ProfessionalItem key={key} {...instance} />;
 			})}
 
 			<hr className='mt-20' />
