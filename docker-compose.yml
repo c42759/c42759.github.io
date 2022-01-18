@@ -5,6 +5,8 @@ services:
             context: ./frontend
         container_name: c42759-frontend
         restart: unless-stopped
+        environment:
+            CHOKIDAR_USEPOLLING: "true"
         volumes:
             - '${APP_FRONTEND_PATH}:/app'
             - './docs:/app/build'
