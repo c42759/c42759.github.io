@@ -1,5 +1,5 @@
-import { React } from 'react';
-import ProfessionalItem from './professionalItem';
+import { React } from 'react'
+import ProfessionalItem from './professionalItem'
 
 function ProfessionalPath() {
 	let payload = [
@@ -61,14 +61,14 @@ function ProfessionalPath() {
 	];
 
 	return (
-		<div className='mb-20'>
-			<h3 className='uppercase text-pink-500 font-semibold mb-10'>Professional Path</h3>
+		<div className={'mb-20'}>
+			<h3 className={'uppercase text-pink-500 font-semibold mb-10'}>Professional Path</h3>
 
 			{payload.map((instance, key) => {
 				return <ProfessionalItem key={key} {...instance} />;
 			})}
 
-			<hr className='mt-20' />
+			<hr className={'mt-20'} />
 		</div>
 	);
 }

@@ -1,5 +1,5 @@
-import { React } from 'react';
-import EducationItem from './educationItem';
+import { React } from 'react'
+import EducationItem from './educationItem'
 
 function EducationPath() {
 	let payload = [
@@ -37,7 +37,7 @@ function EducationPath() {
 
 	return (
 		<div>
-			<h3 className='uppercase text-pink-500 font-semibold mb-10'>Education Path</h3>
+			<h3 className={'uppercase text-pink-500 font-semibold mb-10'}>Education Path</h3>
 
 			{payload.map((instance, key) => {
 				return <EducationItem key={key} {...instance} />;

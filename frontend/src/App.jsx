@@ -1,6 +1,6 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import HomePage from './pages/home';
-import Weather from './pages/weather';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import HomePage from './pages/home'
+import Weather from './pages/weather'
 
 function App() {
 	return (
@@ -13,4 +13,4 @@ function App() {
 	);
 }
 
-export default App;
+export default App
