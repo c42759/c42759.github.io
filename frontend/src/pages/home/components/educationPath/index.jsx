@@ -1,5 +1,5 @@
 import { React } from 'react'
-import EducationItem from './educationItem'
+import EducationItem from './components/educationItem'
 
 function EducationPath() {
 	let payload = [
@@ -33,17 +33,17 @@ function EducationPath() {
 			description:
 				'Student of the Computer Technological course dedicated to the Hardware, Management and Maintenance of Computer Networks during the period indicated, having the opportunity to absorb knowledge in a few programming languages such as Pascal, Visual Basic, C ++ and PHP, as well in development and implementation of computer networks.',
 		},
-	];
+	]
 
 	return (
 		<div>
 			<h3 className={'uppercase text-pink-500 font-semibold mb-10'}>Education Path</h3>
 
 			{payload.map((instance, key) => {
-				return <EducationItem key={key} {...instance} />;
+				return <EducationItem key={key} {...instance} />
 			})}
 		</div>
-	);
+	)
 }
 
-export default EducationPath;
+export default EducationPath

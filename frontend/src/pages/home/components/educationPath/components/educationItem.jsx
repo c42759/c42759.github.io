@@ -10,7 +10,7 @@ function EducationItem({ institution, course, duration, description }) {
 
 			<p className={'mb-6'}>{description}</p>
 		</div>
-	);
+	)
 }
 
-export default EducationItem;
+export default EducationItem

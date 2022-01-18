@@ -1,5 +1,5 @@
 import { React } from 'react'
-import ProfessionalItem from './professionalItem'
+import ProfessionalItem from './components/professionalItem'
 
 function ProfessionalPath() {
 	let payload = [
@@ -58,7 +58,7 @@ function ProfessionalPath() {
 				'Production of more than a hundred websites, most of which are destined to the corporate environment and services presentation, also going through the development/configuration of online stores for the most diverse areas. I have deepened knowledge previously obtained concerning CMS (Joomla, WordPress, Drupal, Prestashop, and OpenCart) and in programming languages such as PHP, SQL, Javascript, and Bash Scripting. Part of the job was client and team management, software projection, and development.',
 			technologies: ['PHP', 'SQL', 'LAMP Stack', 'jQuery', 'Linux', 'Windows', 'Mac OS'],
 		},
-	];
+	]
 
 	return (
 		<div className={'mb-20'}>
@@ -73,4 +73,4 @@ function ProfessionalPath() {
 	);
 }
 
-export default ProfessionalPath;
+export default ProfessionalPath

@@ -1,5 +1,5 @@
 import { React } from 'react'
-import TechBadge from './techBadge'
+import TechBadge from '../../../../../components/techBadge'
 
 function ProfessionalItem({ company, position, description, duration, technologies }) {
 	return (
@@ -24,4 +24,4 @@ function ProfessionalItem({ company, position, description, duration, technologi
 	);
 }
 
-export default ProfessionalItem;
+export default ProfessionalItem
