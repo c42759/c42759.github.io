@@ -11,6 +11,7 @@
 		"@testing-library/user-event": "^12.1.10",
 		"bootstrap-icons": "^1.5.0",
 		"devicons": "^1.8.0",
+		"follow-redirects": "^1.14.7",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
 		"react-icons": "^4.2.0",
