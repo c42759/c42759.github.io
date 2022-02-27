@@ -1,12 +1,12 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/home'
 
 function App() {
 	return (
 		<BrowserRouter>
-			<Switch>
-				<Route exact path='/' component={HomePage} />
-			</Switch>
+			<Routes>
+				<Route exact path='/' element={<HomePage />} />
+			</Routes>
 		</BrowserRouter>
 	);
 }

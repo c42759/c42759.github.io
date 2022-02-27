@@ -1,8 +1,8 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-	purge: [],
-	darkMode: 'class', // or 'media' or 'class'
+	darkMode: 'class',
+	content: ["./src/**/*.{html,jsx}"],
 	theme: {
 		maxWidth: {
 			'1/4': '25%',
@@ -12,9 +12,6 @@ module.exports = {
 		fontFamily: {
 			sans: ['Poppins', ...defaultTheme.fontFamily.sans],
 		},
-		extend: {},
-	},
-	variants: {
 		extend: {},
 	},
 	plugins: [],

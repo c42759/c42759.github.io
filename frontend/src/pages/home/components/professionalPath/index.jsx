@@ -4,7 +4,18 @@ import ProfessionalItem from './components/professionalItem'
 function ProfessionalPath() {
 	let payload = [
 		{
-			company: 'Bosch',
+			company: 'Broadvoice',
+			position: 'Software Engineer',
+			duration: {
+				start_at: 'March 2022',
+				end_at: 'present',
+			},
+			description:
+				'to be updated...',
+			technologies: ['to be updated...'],
+		},
+		{
+			company: 'Bosch (Alten Consultant)',
 			position: 'Fullstack Software Engineer',
 			duration: {
 				start_at: 'January 2021',

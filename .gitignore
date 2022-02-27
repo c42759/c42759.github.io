@@ -1,6 +1,4 @@
-
-frontend/.idea/
-
+*node_modules
 .idea/
 
 logs/frontend/

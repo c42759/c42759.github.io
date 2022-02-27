@@ -1,19 +1,24 @@
 import React from 'react'
 import SocialList from './socialList'
 
-function changeColorSchema() {
-	let htmlClasses = document.querySelector('html').classList;
 
-	if (localStorage.theme === 'dark') {
-		htmlClasses.remove('dark')
-		localStorage.removeItem('theme')
-	} else {
-		htmlClasses.add('dark')
-		localStorage.theme = 'dark'
-	}
-}
 
 function Sidebar() {
+	const htmlClasses = document.querySelector('html').classList;
+
+	htmlClasses.add('dark')
+	localStorage.theme = 'dark'
+
+	function changeColorSchema() {
+		if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+			htmlClasses.remove('dark')
+			localStorage.removeItem('theme')
+		} else {
+			htmlClasses.add('dark')
+			localStorage.theme = 'dark'
+		}
+	}
+
 	return (
 		<div className={'self-auto pt-20 pb-20 border-gray-300 dark:border-gray-600 border-l border-r'}>
 			{/* Avatar */}
@@ -40,7 +45,7 @@ function Sidebar() {
 			</p>
 
 			<p className={'text-center mb-10'}>
-				Too bright for you?
+				Too dark for you?
 				<br />
 				run{' '}
 				<strong className={'cursor-pointer hover:text-gray-400 transition duration-200 ease-in-out'} onClick={changeColorSchema}>
