@@ -5,21 +5,21 @@ function ProfessionalPath() {
 	let payload = [
 		{
 			company: 'Broadvoice',
-			position: 'Software Engineer',
+			position: 'Arch and DevOps Software Engineer',
 			duration: {
 				start_at: 'March 2022',
 				end_at: 'present',
 			},
 			description:
-				'to be updated...',
-			technologies: ['to be updated...'],
+				'Design Architecture and DevOps for CCaaS platform, focused on stability and scalability using virtualization technology. Implementing a CI/CD workflow in the project and structuring work methods and software development to increase productivity at the team level.',
+			technologies: ['Docker', 'Python', 'NodeJs', 'SQL', 'Shell Scripting', 'CI/CD', 'Linux'],
 		},
 		{
 			company: 'Bosch (Alten Consultant)',
 			position: 'Fullstack Software Engineer',
 			duration: {
 				start_at: 'January 2021',
-				end_at: 'present',
+				end_at: 'February 2022',
 			},
 			description:
 				'Software Projection and Development of a platform for internal use for tests integration, focused on the automation of configuration processes between several teams. Structuring and implementation of development and deployment solutions for projects. Structuring work methods and software development to increase productivity at the team level.',

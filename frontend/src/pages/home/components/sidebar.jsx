@@ -2,7 +2,6 @@ import React from 'react'
 import SocialList from './socialList'
 
 
-
 function Sidebar() {
 	const htmlClasses = document.querySelector('html').classList;
 

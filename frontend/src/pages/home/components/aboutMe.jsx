@@ -19,7 +19,7 @@ function AboutMe() {
 			<h3 className={'uppercase text-pink-500 font-semibold mb-10'}>About Me</h3>
 
 			<p className={'mb-10'}>
-				Hello, My name is Carlos Santos, I’m {age} years old Software Engineer from the cozy streets of Aveiro. I being workin as a Software Developer
+				Hello, My name is Carlos Santos, I’m {age} years old Software Engineer from the cozy streets of Aveiro. I have been working as a Software Developer
 				since earlier 2012 and gaining experience in various positions.
 			</p>
 
