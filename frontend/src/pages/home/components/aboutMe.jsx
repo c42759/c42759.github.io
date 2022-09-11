@@ -23,9 +23,9 @@ function AboutMe() {
 				since earlier 2012 and gaining experience in various positions.
 			</p>
 
-			<p className={'mb-5'}>
+			{/* <p className={'mb-5'}>
 				<strong>Birthday:</strong> October 28, 1991
-			</p>
+			</p> */}
 			<p className={'mb-20'}>
 				<strong>Location:</strong> Aveiro, portugal
 			</p>
