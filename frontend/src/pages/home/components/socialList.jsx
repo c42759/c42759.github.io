@@ -26,20 +26,20 @@ function SocialList() {
 			</div>
 
 			{/* Twitter */}
-			<div className={'justify-self-center'}>
+			{/* <div className={'justify-self-center'}>
 				<a title='Twitter' alt='Twitter Profile' href='https://twitter.com/@c42759' target='_blank' rel='noreferrer'>
 					<svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
 						<AiOutlineTwitter size='1.5em' />
 					</svg>
 				</a>
-			</div>
+			</div> */}
 
 			{/* Skype */}
-			<div className={'justify-self-center'}>
+			{/* <div className={'justify-self-center'}>
 				<a title='Skype' alt='Skype Call' href='skype:c42759' rel='noreferrer'>
 					<AiFillSkype size='1.5em' />
 				</a>
-			</div>
+			</div> */}
 		</div>
 	);
 }
