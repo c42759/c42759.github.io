@@ -12,7 +12,7 @@ function ProfessionalPath() {
 			},
 			description:
 				'Design Architecture and DevOps for CCaaS platform, focused on stability and scalability using virtualization technology. Implementing a CI/CD workflow in the project and structuring work methods and software development to increase productivity at the team level.',
-			technologies: ['Docker', 'Python', 'NodeJs', 'SQL', 'Shell Scripting', 'CI/CD', 'Linux'],
+			technologies: ['Docker', 'Python', 'NodeJs', 'SQL', 'Shell Scripting', 'CI/CD', 'Github', 'Linux'],
 		},
 		{
 			company: 'Bosch (Alten Consultant)',

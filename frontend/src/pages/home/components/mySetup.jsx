@@ -6,7 +6,10 @@ function MySetup() {
             <h3 className={'uppercase text-pink-500 font-semibold mb-10'}>My Setup</h3>
 
             <p className='mb-10'>
-                <strong>Monitor:</strong>{" "}
+                <strong>Monitor 1:</strong>{" "}
+                <a href="https://amzn.to/3onpjgB"
+                   target="_blank" rel="noreferrer">Xiaomi 34" 144hz 21:9 WQHD Curved</a><br />
+                <strong>Monitor 2:</strong>{" "}
                 <a href="https://amzn.to/3onpjgB"
                    target="_blank" rel="noreferrer">Xiaomi 34" 144hz 21:9 WQHD Curved</a><br />
                 <strong>Headset:</strong>{" "}
@@ -16,12 +19,14 @@ function MySetup() {
                 <a href="https://amzn.to/3tIfaiS"
                    target="_blank" rel="noreferrer">Razer Seiren Elite</a><br />
                 <strong>Keyboard:</strong>{" "}
-                <a href="https://amzn.to/323b8WN"
-                   target="_blank" rel="noreferrer">Ewent BT Keyboard PT-PT</a><br />
+                <a href="https://www.amazon.es/Logitech-Inal%C3%A1mbrico-Minimalista-Retroiluminado-Compatible/dp/B07W5JKWTF/"
+                   target="_blank" rel="noreferrer">Logitech Mini Keys Keyboard US International</a><br />
                 <strong>Mouse: </strong>{" "}
                 <a href="https://amzn.to/3qy5rdr"
                    target="_blank" rel="noreferrer">Logitech MX Master 3 Gray</a><br />
-                <strong>Webcam:</strong> Xiaomi Laptop Webcam HD<br />
+                <strong>Webcam:</strong>{" "}
+                <a href="https://www.amazon.es/Logitech-C920s-Pro-micr%C3%B3fonos-compatible/dp/B07MM4V7NR/"
+                   target="_blank" rel="noreferrer"></a>Logitech C920s HD Pro Webcam<br />
                 <strong>Case: </strong>{" "}
                 <a href="https://amzn.to/3nbRHTJ"
                    target="_blank" rel="noreferrer">Phanteks Evolv Shift 2</a><br />
