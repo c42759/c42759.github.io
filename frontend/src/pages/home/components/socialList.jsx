@@ -3,7 +3,7 @@ import { AiFillGithub, AiFillGitlab, AiOutlineTwitter, AiFillSkype, AiFillLinked
 
 function SocialList() {
 	return (
-		<div id='social' className={'grid grid-cols-5 mb-20 lg:max-w-1/2 object-center mx-auto'}>
+		<div id='social' className={'grid grid-cols-3 mb-20 lg:max-w-1/2 object-center mx-auto'}>
 			{/* Github */}
 			<div className={'justify-self-center'}>
 				<a title='Github' alt='Gitbub Profile' href='https://github.com/c42759' target='_blank' rel='noreferrer'>
