@@ -2,7 +2,7 @@
 
 echo "Hello there! Let's start this..."
 
-yarn build
+npx yarn build
 
 rm -rf ../docs/*
 

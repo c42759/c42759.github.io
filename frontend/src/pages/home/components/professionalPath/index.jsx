@@ -4,11 +4,22 @@ import ProfessionalItem from './components/professionalItem'
 function ProfessionalPath() {
 	let payload = [
 		{
+			company: 'ETAS (T&S and Lisbon Nearshore Consultant)',
+			position: 'Software Engineer',
+			duration: {
+				start_at: 'March 2023',
+				end_at: 'Present',
+			},
+			description:
+				'To be updated...',
+			technologies: ['C', 'Python', 'NodeJs', 'SQL', 'Shell Scripting', 'Docker', 'CI/CD', 'Linux'],
+		},
+		{
 			company: 'Broadvoice',
 			position: 'Arch and DevOps Software Engineer',
 			duration: {
 				start_at: 'March 2022',
-				end_at: 'present',
+				end_at: 'April 2023',
 			},
 			description:
 				'Design Architecture and DevOps for CCaaS platform, focused on stability and scalability using virtualization technology. Implementing a CI/CD workflow in the project and structuring work methods and software development to increase productivity at the team level.',
