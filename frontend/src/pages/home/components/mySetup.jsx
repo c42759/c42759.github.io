@@ -12,12 +12,15 @@ function MySetup() {
                 <strong>Monitor 2:</strong>{" "}
                 <a href="https://amzn.to/3onpjgB"
                    target="_blank" rel="noreferrer">Xiaomi 34" 144hz 21:9 WQHD Curved</a><br />
+                <strong>Monitor 3:</strong>{" "}
+                <a href="https://www.verbatim.com/prod/accessories/video-accessories/portable-monitors-sku-49591/"
+                   target="_blank" rel="noreferrer">Verbatim PMT-14 Portable Monitor Metal Housing</a><br />
                 <strong>Headset:</strong>{" "}
-                <a href="https://amzn.to/3KngLk9"
-                   target="_blank" rel="noreferrer">Steelseries Arctis 5 2016</a><br />
+                <a href="https://steelseries.com/gaming-headsets/arctis-9"
+                   target="_blank" rel="noreferrer">Steelseries Arctis 9</a><br />
                 <strong>Mic:</strong>{" "}
-                <a href="https://amzn.to/3tIfaiS"
-                   target="_blank" rel="noreferrer">Razer Seiren Elite</a><br />
+                <a href="https://store.kromgaming.com/pt/products/kapsule"
+                   target="_blank" rel="noreferrer">Krom Kapsule</a><br />
                 <strong>Keyboard:</strong>{" "}
                 <a href="https://www.amazon.es/Logitech-Inal%C3%A1mbrico-Minimalista-Retroiluminado-Compatible/dp/B07W5JKWTF/"
                    target="_blank" rel="noreferrer">Logitech Mini Keys Keyboard US International</a><br />
