@@ -5,7 +5,7 @@ import SocialList from './socialList'
 function Sidebar() {
 	const htmlClasses = document.querySelector('html').classList;
 
-	htmlClasses.add('dark')
+	// htmlClasses.add('dark')
 	localStorage.theme = 'dark'
 
 	function changeColorSchema() {
