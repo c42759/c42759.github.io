@@ -11,8 +11,8 @@ function ProfessionalPath() {
 				end_at: 'Present',
 			},
 			description:
-				'To be updated...',
-			technologies: ['C', 'Python', 'NodeJs', 'SQL', 'Shell Scripting', 'Docker', 'CI/CD', 'Linux'],
+				'Debugging C Embeeded Sofware destinated to Automotive Integrated Hardware, along the refactoring and fixing of already developed battery of tests. Also, Supporting a team with Software Development of a platform for internal use for tests integration, focused on the automation of configuration processes between several teams.',
+			technologies: ['C', 'Python', 'ReactJS', 'NodeJs', 'SQL', 'Shell Scripting', 'Docker', 'CI/CD', 'Linux'],
 		},
 		{
 			company: 'Broadvoice',
