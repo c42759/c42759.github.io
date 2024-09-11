@@ -1,5 +1,5 @@
 import { React } from 'react'
-import { AiFillGithub, AiFillGitlab, AiOutlineTwitter, AiFillSkype, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub, AiFillGitlab, AiFillLinkedin } from 'react-icons/ai'
 
 function SocialList() {
 	return (
@@ -24,22 +24,6 @@ function SocialList() {
 					<AiFillLinkedin size='1.5em' />
 				</a>
 			</div>
-
-			{/* Twitter */}
-			{/* <div className={'justify-self-center'}>
-				<a title='Twitter' alt='Twitter Profile' href='https://twitter.com/@c42759' target='_blank' rel='noreferrer'>
-					<svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-						<AiOutlineTwitter size='1.5em' />
-					</svg>
-				</a>
-			</div> */}
-
-			{/* Skype */}
-			{/* <div className={'justify-self-center'}>
-				<a title='Skype' alt='Skype Call' href='skype:c42759' rel='noreferrer'>
-					<AiFillSkype size='1.5em' />
-				</a>
-			</div> */}
 		</div>
 	);
 }

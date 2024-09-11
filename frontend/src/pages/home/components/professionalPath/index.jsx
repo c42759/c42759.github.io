@@ -5,10 +5,21 @@ function ProfessionalPath() {
 	let payload = [
 		{
 			company: 'ETAS (T&S and Lisbon Nearshore Consultant)',
+			position: 'DevOps Software Engineer',
+			duration: {
+				start_at: 'March 2024',
+				end_at: 'Present',
+			},
+			description:
+				'As a DevOps Software Engineer working with Jenkins, I focused on automating and streamlining the software development lifecycle, particularly around CI/CD. I used Jenkins to automate tasks such as building, testing, and deploying code, configuring pipelines to ensure efficient workflows. I integrated Jenkins with version control systems like Git, managed and customized plugins to extend Jenkins\' functionality, and ensured the system remained scalable, secure, and reliable.',
+			technologies: ['Groovy', 'CI/CD'],
+		},
+		{
+			company: 'ETAS (T&S and Lisbon Nearshore Consultant)',
 			position: 'Software Engineer',
 			duration: {
 				start_at: 'March 2023',
-				end_at: 'Present',
+				end_at: 'March 2024',
 			},
 			description:
 				'Debugging C Embeeded Sofware destinated to Automotive Integrated Hardware, along the refactoring and fixing of already developed battery of tests. Also, Supporting a team with Software Development of a platform for internal use for tests integration, focused on the automation of configuration processes between several teams.',

@@ -18,14 +18,14 @@ function AboutMe() {
 		<div className={'mb-20'}>
 			<h3 className={'uppercase text-pink-500 font-semibold mb-10'}>About Me</h3>
 
-			<p className={'mb-10'}>
-				Hello, My name is Carlos Santos, I’m {age} years old Software Engineer from the cozy streets of Aveiro. I have been working as a Software Developer
-				since earlier 2012 and gaining experience in various positions.
+			<p className={'mb-2'}>
+				Hello, my name is Carlos Santos, and I’m a {age} years old Software Engineer from the picturesque city of Aveiro. Since 2012, I’ve built a diverse career, gaining hands-on experience in various roles, from Full stack and backend development to project management and DevOps. My journey has taken me through multiple industries, including automotive, telecommunications, and analytics, where I’ve consistently delivered solutions that enhance productivity and drive technological advancements.
 			</p>
 
-			{/* <p className={'mb-5'}>
-				<strong>Birthday:</strong> October 28, 1991
-			</p> */}
+			<p className={'mb-10'}>
+				In my most recent roles, I’ve focused on designing and implementing complex software architectures, automating workflows, and leading teams to success. Whether it’s developing scalable platforms, optimizing CI/CD pipelines, or enhancing user experience with robust front-end solutions, I bring a strong commitment to excellence and innovation in every project I undertake.
+			</p>
+
 			<p className={'mb-20'}>
 				<strong>Location:</strong> Aveiro, portugal
 			</p>

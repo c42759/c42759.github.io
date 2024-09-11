@@ -4,6 +4,16 @@ import EducationItem from './components/educationItem'
 function EducationPath() {
 	let payload = [
 		{
+			institution: 'EasyTalk',
+			course: 'English Course',
+			duration: {
+				start_at: 'October 2023',
+				end_at: 'February 2024',
+			},
+			description:
+				'I completed a 40-hour English course to strengthen and certify my language skills, as well as to refine my understanding of advanced grammar and communication techniques.',
+		},
+		{
 			institution: 'Galileu',
 			course: 'PHP Course',
 			duration: {
