@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "slug": "welcome-to-my-cv",
+    "title": "Welcome to my interactive CV",
+    "date": "2026-02-26",
+    "excerpt": "This is the first post detailing the architecture and design decisions behind this cv.",
+    "content": "Building an interactive CV is an interesting challenge..."
+  },
+  {
+    "id": 2,
+    "slug": "automating-workflows-with-github-actions",
+    "title": "Automating workflows with GitHub Actions",
+    "date": "2026-01-15",
+    "excerpt": "A deep dive into how I automated our CI/CD pipelines.",
+    "content": "Automation is key in modern software development..."
+  }
+]

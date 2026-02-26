@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "The Witcher 3: Wild Hunt",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+    "description": "An incredible RPG filled with choices and consequences.",
+    "completion": 100,
+    "evaluation": 5,
+    "hoursPlayed": 150
+  },
+  {
+    "id": 2,
+    "title": "Cyberpunk 2077",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+    "description": "A compelling sci-fi story in a dense, brilliant city.",
+    "completion": 90,
+    "evaluation": 4,
+    "hoursPlayed": 85
+  },
+  {
+    "id": 3,
+    "title": "Red Dead Redemption 2",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+    "description": "A masterpiece of storytelling and open-world design.",
+    "completion": 100,
+    "evaluation": 5,
+    "hoursPlayed": 200
+  }
+]
