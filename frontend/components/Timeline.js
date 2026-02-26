@@ -34,6 +34,16 @@ export default function Timeline({ title, items }) {
                 {item.description}
               </p>
             )}
+
+            {item.technologies && item.technologies.length > 0 && (
+              <div className="flex flex-wrap gap-2 mt-4">
+                {item.technologies.map((tech, idx) => (
+                  <span key={idx} className="text-xs font-semibold text-cv-peach bg-cv-peach/10 px-2.5 py-1 rounded">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </div>

@@ -1,29 +1,182 @@
 [
   {
     "id": 1,
-    "title": "The Witcher 3: Wild Hunt",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
-    "description": "An incredible RPG filled with choices and consequences.",
-    "completion": 100,
-    "evaluation": 5,
-    "hoursPlayed": 150
+    "title": "Pokémon Red",
+    "cover": "/games/pokemon_red.png",
+    "description": "The start of an amazing journey in the Kanto region.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
   },
   {
     "id": 2,
-    "title": "Cyberpunk 2077",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
-    "description": "A compelling sci-fi story in a dense, brilliant city.",
-    "completion": 90,
-    "evaluation": 4,
-    "hoursPlayed": 85
+    "title": "Pokémon Blue",
+    "cover": "/games/pokemon_blue.png",
+    "description": "The matching adventure to Red, featuring Blastoise.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
   },
   {
     "id": 3,
-    "title": "Red Dead Redemption 2",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
-    "description": "A masterpiece of storytelling and open-world design.",
-    "completion": 100,
-    "evaluation": 5,
-    "hoursPlayed": 200
+    "title": "Pokémon Yellow",
+    "cover": "/games/pokemon_yellow.png",
+    "description": "Special Pikachu Edition.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 4,
+    "title": "Pokémon Silver",
+    "cover": "/games/pokemon_silver.png",
+    "description": "Explore the Johto region.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 5,
+    "title": "Pokémon Gold",
+    "cover": "/games/pokemon_gold.png",
+    "description": "Explore the Johto region alongside Ho-Oh.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 6,
+    "title": "Pokémon Crystal",
+    "cover": "/games/pokemon_crystal.png",
+    "description": "The definitive Johto experience, featuring Suicune.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 7,
+    "title": "Pokémon Ruby",
+    "cover": "/games/pokemon_ruby.jpg",
+    "description": "A journey in the Hoenn region, stopping Team Magma.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 8,
+    "title": "Pokémon Saphire",
+    "cover": "/games/pokemon_sapphire.jpg",
+    "description": "A journey in the Hoenn region, stopping Team Aqua.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 9,
+    "title": "Pokémon Emerald",
+    "cover": "/games/pokemon_emerald.png",
+    "description": "The third Hoenn adventure featuring Rayquaza.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 10,
+    "title": "Pokémon Let's Go Pikachu",
+    "cover": "/games/pokemon_lets_go_pikachu.png",
+    "description": "A fresh return to Kanto via the Nintendo Switch.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 11,
+    "title": "Pokémon Sword",
+    "cover": "/games/pokemon_sword.jpg",
+    "description": "Welcome to the Galar region.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 12,
+    "title": "Pokémon Scarlet",
+    "cover": "/games/pokemon_scarlet.png",
+    "description": "Explore the open-world Paldea region.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 13,
+    "title": "Pokémon Legends Arceus",
+    "cover": "/games/pokemon_legends_arceus.jpg",
+    "description": "Action-RPG taking place in the historical Hisui region.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 14,
+    "title": "Pokémon Legends ZA",
+    "cover": "/games/pokemon_legends_za.png",
+    "description": "The upcoming return to Lumiose City in Kalos.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 15,
+    "title": "Darksiders",
+    "cover": "/games/darksiders.jpg",
+    "description": "Hack and slash action-adventure game playing as War.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 16,
+    "title": "Darksiders 2",
+    "cover": "/games/darksiders_2.jpg",
+    "description": "Play as Death to restore humanity and clear your brother's name.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 17,
+    "title": "Darksiders 3",
+    "cover": "/games/darksiders_3.jpg",
+    "description": "Play as Fury in her quest to hunt down the Seven Deadly Sins.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 18,
+    "title": "Need For Speed Underground 2",
+    "cover": "/games/need_for_speed_underground_2.jpg",
+    "description": "A legendary street racing classic with deep customization.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 19,
+    "title": "Need For Speed Heat",
+    "cover": "/games/need_for_speed_heat.jpg",
+    "description": "Hustle by day, risk it all by night in Palm City.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
+  },
+  {
+    "id": 20,
+    "title": "Need For Speed Hot Pursuit",
+    "cover": "/games/need_for_speed_hot_pursuit.png",
+    "description": "High-speed chases as either cops or racers in Seacrest County.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-"
   }
 ]
