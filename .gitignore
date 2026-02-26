@@ -1,0 +1,14 @@
+
+.env
+rabbitmq/data/*
+
+.vscode/
+.idea/
+.stfolder/*
+.stignore
+.DS_Store
+
+# Syncthing
+_.stignore
+.stignore
+.stversions/
