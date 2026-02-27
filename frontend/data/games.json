@@ -2,56 +2,74 @@
   {
     "id": 1,
     "title": "Pokémon Red",
-    "cover": "/games/pokemon_red.png",
+    "cover": "/games/pokemon_red.jpg",
     "description": "The start of an amazing journey in the Kanto region.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "1996",
+    "platform": "Game Boy",
+    "style": "RPG"
   },
   {
     "id": 2,
     "title": "Pokémon Blue",
-    "cover": "/games/pokemon_blue.png",
+    "cover": "/games/pokemon_blue.jpg",
     "description": "The matching adventure to Red, featuring Blastoise.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "1996",
+    "platform": "Game Boy",
+    "style": "RPG"
   },
   {
     "id": 3,
     "title": "Pokémon Yellow",
-    "cover": "/games/pokemon_yellow.png",
+    "cover": "/games/pokemon_yellow.jpg",
     "description": "Special Pikachu Edition.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "1998",
+    "platform": "Game Boy",
+    "style": "RPG"
   },
   {
     "id": 4,
     "title": "Pokémon Silver",
-    "cover": "/games/pokemon_silver.png",
+    "cover": "/games/pokemon_silver.jpg",
     "description": "Explore the Johto region.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "1999",
+    "platform": "Game Boy Color",
+    "style": "RPG"
   },
   {
     "id": 5,
     "title": "Pokémon Gold",
-    "cover": "/games/pokemon_gold.png",
+    "cover": "/games/pokemon_gold.jpg",
     "description": "Explore the Johto region alongside Ho-Oh.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "1999",
+    "platform": "Game Boy Color",
+    "style": "RPG"
   },
   {
     "id": 6,
     "title": "Pokémon Crystal",
-    "cover": "/games/pokemon_crystal.png",
+    "cover": "/games/pokemon_crystal.jpg",
     "description": "The definitive Johto experience, featuring Suicune.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2000",
+    "platform": "Game Boy Color",
+    "style": "RPG"
   },
   {
     "id": 7,
@@ -60,34 +78,46 @@
     "description": "A journey in the Hoenn region, stopping Team Magma.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2002",
+    "platform": "Game Boy Advance",
+    "style": "RPG"
   },
   {
     "id": 8,
-    "title": "Pokémon Saphire",
+    "title": "Pokémon Sapphire",
     "cover": "/games/pokemon_sapphire.jpg",
     "description": "A journey in the Hoenn region, stopping Team Aqua.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2002",
+    "platform": "Game Boy Advance",
+    "style": "RPG"
   },
   {
     "id": 9,
     "title": "Pokémon Emerald",
-    "cover": "/games/pokemon_emerald.png",
+    "cover": "/games/pokemon_emerald.jpg",
     "description": "The third Hoenn adventure featuring Rayquaza.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2004",
+    "platform": "Game Boy Advance",
+    "style": "RPG"
   },
   {
     "id": 10,
     "title": "Pokémon Let's Go Pikachu",
-    "cover": "/games/pokemon_lets_go_pikachu.png",
+    "cover": "/games/pokemon_lets_go_pikachu.jpg",
     "description": "A fresh return to Kanto via the Nintendo Switch.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2018",
+    "platform": "Nintendo Switch",
+    "style": "RPG"
   },
   {
     "id": 11,
@@ -96,16 +126,22 @@
     "description": "Welcome to the Galar region.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2019",
+    "platform": "Nintendo Switch",
+    "style": "RPG"
   },
   {
     "id": 12,
     "title": "Pokémon Scarlet",
-    "cover": "/games/pokemon_scarlet.png",
+    "cover": "/games/pokemon_scarlet.jpg",
     "description": "Explore the open-world Paldea region.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2022",
+    "platform": "Nintendo Switch",
+    "style": "RPG"
   },
   {
     "id": 13,
@@ -114,16 +150,22 @@
     "description": "Action-RPG taking place in the historical Hisui region.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2022",
+    "platform": "Nintendo Switch",
+    "style": "Action RPG"
   },
   {
     "id": 14,
     "title": "Pokémon Legends ZA",
-    "cover": "/games/pokemon_legends_za.png",
+    "cover": "/games/pokemon_legends_za.jpg",
     "description": "The upcoming return to Lumiose City in Kalos.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2025",
+    "platform": "Nintendo Switch",
+    "style": "Action RPG"
   },
   {
     "id": 15,
@@ -132,7 +174,10 @@
     "description": "Hack and slash action-adventure game playing as War.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2010",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
   },
   {
     "id": 16,
@@ -141,7 +186,10 @@
     "description": "Play as Death to restore humanity and clear your brother's name.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2012",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
   },
   {
     "id": 17,
@@ -150,7 +198,10 @@
     "description": "Play as Fury in her quest to hunt down the Seven Deadly Sins.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2018",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
   },
   {
     "id": 18,
@@ -159,7 +210,10 @@
     "description": "A legendary street racing classic with deep customization.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2004",
+    "platform": "Multi-platform",
+    "style": "Racing"
   },
   {
     "id": 19,
@@ -168,15 +222,405 @@
     "description": "Hustle by day, risk it all by night in Palm City.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2019",
+    "platform": "Multi-platform",
+    "style": "Racing"
   },
   {
     "id": 20,
     "title": "Need For Speed Hot Pursuit",
-    "cover": "/games/need_for_speed_hot_pursuit.png",
+    "cover": "/games/need_for_speed_hot_pursuit.jpg",
     "description": "High-speed chases as either cops or racers in Seacrest County.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-"
+    "hoursPlayed": "-",
+    "releaseDate": "2010",
+    "platform": "Multi-platform",
+    "style": "Racing"
+  },
+  {
+    "id": 21,
+    "title": "Warcraft III",
+    "cover": "/games/warcraft_3.jpg",
+    "description": "Epic high fantasy RTS by Blizzard.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2002",
+    "platform": "PC",
+    "style": "RTS"
+  },
+  {
+    "id": 22,
+    "title": "World of Warcraft",
+    "cover": "/games/wow.jpg",
+    "description": "The defining MMORPG of a generation.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2004",
+    "platform": "PC",
+    "style": "MMORPG"
+  },
+  {
+    "id": 23,
+    "title": "Knights and Merchants",
+    "cover": "/games/knights_and_merchants.jpg",
+    "description": "Classic medieval economy and strategy.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "1998",
+    "platform": "PC",
+    "style": "RTS"
+  },
+  {
+    "id": 24,
+    "title": "Medabots: Metabee",
+    "cover": "/games/medabots_metabee.jpg",
+    "description": "Build and battle with Metabee.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2002",
+    "platform": "Game Boy Advance",
+    "style": "RPG"
+  },
+  {
+    "id": 25,
+    "title": "Medabots: Rokusho",
+    "cover": "/games/medabots_rokusho.jpg",
+    "description": "Build and battle with Rokusho.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2002",
+    "platform": "Game Boy Advance",
+    "style": "RPG"
+  },
+  {
+    "id": 26,
+    "title": "The Sims 3",
+    "cover": "/games/sims_3.jpg",
+    "description": "Live a simulated life with an open neighborhood.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2009",
+    "platform": "PC",
+    "style": "Simulation"
+  },
+  {
+    "id": 27,
+    "title": "The Sims 4",
+    "cover": "/games/sims_4.jpg",
+    "description": "Build your dream home and control Sims' lives.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2014",
+    "platform": "PC",
+    "style": "Simulation"
+  },
+  {
+    "id": 28,
+    "title": "Strife",
+    "cover": "/games/strife.jpg",
+    "description": "A premier second-generation MOBA.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2015",
+    "platform": "PC",
+    "style": "MOBA"
+  },
+  {
+    "id": 29,
+    "title": "Dota 2",
+    "cover": "/games/dota_2.jpg",
+    "description": "The highly competitive and deep action RTS.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2013",
+    "platform": "PC",
+    "style": "MOBA"
+  },
+  {
+    "id": 30,
+    "title": "Counter-Strike 1.6",
+    "cover": "/games/cs_16.jpg",
+    "description": "The classic tactical FPS.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2000",
+    "platform": "PC",
+    "style": "FPS"
+  },
+  {
+    "id": 31,
+    "title": "Counter-Strike: Source",
+    "cover": "/games/cs_source.jpg",
+    "description": "CS rebuilt on the Source engine.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2004",
+    "platform": "PC",
+    "style": "FPS"
+  },
+  {
+    "id": 32,
+    "title": "Counter-Strike 2",
+    "cover": "/games/cs_2.jpg",
+    "description": "The latest evolution of the CS franchise.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2023",
+    "platform": "PC",
+    "style": "FPS"
+  },
+  {
+    "id": 33,
+    "title": "Game Dev Tycoon",
+    "cover": "/games/game_dev_tycoon.jpg",
+    "description": "Start a game studio in the 80s and conquer the market.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2012",
+    "platform": "PC",
+    "style": "Simulation"
+  },
+  {
+    "id": 34,
+    "title": "Batman: Arkham Asylum GOTY",
+    "cover": "/games/batman_arkham_asylum.jpg",
+    "description": "Descend into the madness of Arkham.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2010",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 35,
+    "title": "Anomaly 2",
+    "cover": "/games/anomaly_2.jpg",
+    "description": "Action-packed tower offense game.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2013",
+    "platform": "PC",
+    "style": "Tower Offense"
+  },
+  {
+    "id": 36,
+    "title": "Sonic Adventure",
+    "cover": "/games/sonic_adventure.jpg",
+    "description": "Sonic's first major 3D outing.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "1998",
+    "platform": "Dreamcast",
+    "style": "Platformer"
+  },
+  {
+    "id": 37,
+    "title": "Renegade Ops",
+    "cover": "/games/renegade_ops.jpg",
+    "description": "Top-down vehicular combat.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2011",
+    "platform": "Multi-platform",
+    "style": "Vehicular Combat"
+  },
+  {
+    "id": 38,
+    "title": "Middle-earth: Shadow of Mordor",
+    "cover": "/games/shadow_of_mordor.jpg",
+    "description": "Fight through Mordor and forge your own nemesis.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2014",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 39,
+    "title": "Left 4 Dead 2",
+    "cover": "/games/l4d2.jpg",
+    "description": "Co-op zombie survival.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2009",
+    "platform": "PC",
+    "style": "FPS"
+  },
+  {
+    "id": 40,
+    "title": "Shank 2",
+    "cover": "/games/shank_2.jpg",
+    "description": "2D side-scrolling beat 'em up.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2012",
+    "platform": "PC",
+    "style": "Beat 'em up"
+  },
+  {
+    "id": 41,
+    "title": "GRID",
+    "cover": "/games/grid.jpg",
+    "description": "High-octane racing experience.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2008",
+    "platform": "Multi-platform",
+    "style": "Racing"
+  },
+  {
+    "id": 42,
+    "title": "Magicka",
+    "cover": "/games/magicka.jpg",
+    "description": "Action-adventure based on Norse mythology.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2011",
+    "platform": "PC",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 43,
+    "title": "Plants vs. Zombies: GOTY",
+    "cover": "/games/pvz.jpg",
+    "description": "Defend your house from zombies with plants.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2010",
+    "platform": "PC",
+    "style": "Tower Defense"
+  },
+  {
+    "id": 44,
+    "title": "Sonic Generations",
+    "cover": "/games/sonic_generations.jpg",
+    "description": "Classic and Modern Sonic team up.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2011",
+    "platform": "Multi-platform",
+    "style": "Platformer"
+  },
+  {
+    "id": 45,
+    "title": "Neighbours from Hell",
+    "cover": "/games/neighbours_from_hell.jpg",
+    "description": "Play pranks on your grumpy neighbor.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2003",
+    "platform": "PC",
+    "style": "Puzzle"
+  },
+  {
+    "id": 46,
+    "title": "GTA: San Andreas",
+    "cover": "/games/gta_sa.jpg",
+    "description": "Explore the massive state of San Andreas.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2004",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 47,
+    "title": "Assassin's Creed",
+    "cover": "/games/ac_1.jpg",
+    "description": "The birth of the Creed in the Holy Land.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2007",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 48,
+    "title": "Assassin's Creed II",
+    "cover": "/games/ac_2.jpg",
+    "description": "Ezio's journey begins in Renaissance Italy.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2009",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 49,
+    "title": "Assassin's Creed: Brotherhood",
+    "cover": "/games/ac_brotherhood.jpg",
+    "description": "Ezio liberates Rome from the Borgia.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2010",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 50,
+    "title": "Assassin's Creed: Revelations",
+    "cover": "/games/ac_revelations.jpg",
+    "description": "Ezio finds altitude and answers in Constantinople.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2011",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 51,
+    "title": "Assassin's Creed III",
+    "cover": "/games/ac_3.jpg",
+    "description": "Connor fights for freedom in the American Revolution.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2012",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
+  },
+  {
+    "id": 52,
+    "title": "Assassin's Creed IV: Black Flag",
+    "cover": "/games/ac_black_flag.jpg",
+    "description": "Edward Kenway's pirate adventures in the Caribbean.",
+    "completion": 0,
+    "evaluation": "-",
+    "hoursPlayed": "-",
+    "releaseDate": "2013",
+    "platform": "Multi-platform",
+    "style": "Action-Adventure"
   }
 ]

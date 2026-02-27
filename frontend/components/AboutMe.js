@@ -1,4 +1,12 @@
 export default function AboutMe() {
+  const birthDate = new Date('1991-10-28');
+  const today = new Date();
+  let age = today.getFullYear() - birthDate.getFullYear();
+  const m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--;
+  }
+
   return (
     <section className="w-full max-w-4xl mx-auto px-6 py-12">
       <div className="relative group">
@@ -7,7 +15,7 @@ export default function AboutMe() {
           <div className="flex items-center space-x-3 mb-6">
             <div className="p-2 bg-cv-orange/10 rounded-lg">
               <svg className="w-6 h-6 text-cv-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
             </div>
             <h2 className="text-2xl font-bold text-white tracking-tight">About Me</h2>
@@ -15,7 +23,7 @@ export default function AboutMe() {
           
           <div className="space-y-4 text-cv-light leading-relaxed">
             <p className="text-lg">
-              Hello, my name is Carlos Santos, and I’m a 34 years old Software Engineer from the picturesque city of Aveiro.
+              Hello, my name is Carlos Santos, and I’m a {age} years old Software Engineer from the picturesque city of Aveiro.
               Since 2012, I’ve built a diverse career, gaining hands-on experience in various roles, from Full stack and backend development to project management and DevOps.
             </p>
             <p className="text-lg">

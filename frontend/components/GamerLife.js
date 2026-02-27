@@ -1,7 +1,8 @@
 import Image from 'next/image';
 
 export default function GamerLife({ games }) {
-  // Sort games by evaluation to show top rated first if desired
+  // Sort games by title alphabetically
+  const sortedGames = [...games].sort((a, b) => a.title.localeCompare(b.title));
   
   return (
     <section className="w-full max-w-4xl mx-auto px-6 py-12">
@@ -16,7 +17,7 @@ export default function GamerLife({ games }) {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {games.map((game) => (
+        {sortedGames.map((game) => (
           <div key={game.id} className="group relative rounded-2xl overflow-hidden bg-[#1a1c1e] border border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cv-orange/10 flex flex-col h-full">
             
             {/* Game Cover */}
@@ -40,6 +41,19 @@ export default function GamerLife({ games }) {
             {/* Game Content */}
             <div className="p-5 flex flex-col flex-1 relative z-10 -mt-10 bg-gradient-to-b from-transparent to-[#1a1c1e] pt-10">
               <h3 className="text-xl font-bold text-white mb-2 leading-tight">{game.title}</h3>
+              
+              <div className="flex flex-wrap items-center gap-2 mb-3">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-cv-peach bg-cv-peach/10 px-2 py-0.5 rounded-full">
+                  {game.platform}
+                </span>
+                <span className="text-[10px] font-bold uppercase tracking-wider text-white bg-white/10 px-2 py-0.5 rounded-full">
+                  {game.style}
+                </span>
+                <span className="text-[10px] font-bold text-cv-light/60 border border-cv-dark/50 px-2 py-0.5 rounded-full">
+                  {game.releaseDate}
+                </span>
+              </div>
+
               <p className="text-sm text-cv-light/80 mb-6 flex-1 line-clamp-3">
                 {game.description}
               </p>

@@ -33,9 +33,9 @@ export default function Header() {
           </div>
           
           <div className="flex items-center justify-center space-x-4">
-            <SocialLink href="https://github.com" label="GitHub" icon={GitHubIcon} />
-            <SocialLink href="https://gitlab.com" label="GitLab" icon={GitLabIcon} />
-            <SocialLink href="https://linkedin.com" label="LinkedIn" icon={LinkedInIcon} />
+            <SocialLink href="https://github.com/c42759" label="GitHub" icon={GitHubIcon} />
+            <SocialLink href="https://gitlab.com/c42759" label="GitLab" icon={GitLabIcon} />
+            <SocialLink href="https://www.linkedin.com/in/carlos-santos-4abab492/" label="LinkedIn" icon={LinkedInIcon} />
           </div>
         </div>
       </div>
