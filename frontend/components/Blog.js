@@ -37,9 +37,9 @@ export default function Blog({ posts }) {
               {post.excerpt}
             </p>
             
-            <Link href={`#`} className="inline-flex items-center text-sm font-semibold text-cv-orange dark:text-cv-peach hover:text-cv-peach dark:hover:text-cv-orange transition-colors group-hover:translate-x-1 duration-300">
+            <Link href={`/blog/${post.slug}`} className="inline-flex items-center text-sm font-semibold text-cv-orange dark:text-cv-peach hover:text-cv-peach dark:hover:text-cv-orange transition-colors group-hover:translate-x-1 duration-300">
               Read article
-              <svg className="ml-1 w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="ml-1 w-4 h-4" transform="rotate(0)" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </Link>
