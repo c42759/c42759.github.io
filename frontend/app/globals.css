@@ -8,6 +8,11 @@
 }
 
 :root {
+  --background: #f8f9fa;
+  --foreground: #121212;
+}
+
+.dark {
   --background: #121212;
   --foreground: #DDDCDB;
 }
@@ -18,6 +23,8 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+
+@custom-variant dark (&:is(.dark *));
 
 body {
   background: var(--background);

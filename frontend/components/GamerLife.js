@@ -13,15 +13,15 @@ export default function GamerLife({ games }) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
-        <h2 className="text-2xl font-bold text-white tracking-tight">Gamer Life</h2>
+        <h2 className="text-2xl font-bold text-cv-dark dark:text-white tracking-tight">Gamer Life</h2>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {sortedGames.map((game) => (
-          <div key={game.id} className="group relative rounded-2xl overflow-hidden bg-[#1a1c1e] border border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cv-orange/10 flex flex-col h-full">
+          <div key={game.id} className="group relative rounded-2xl overflow-hidden bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cv-orange/10 flex flex-col h-full">
             
             {/* Game Cover */}
-            <div className="relative h-64 w-full bg-cv-dark/20 overflow-hidden">
+            <div className="relative h-64 w-full bg-gray-200 dark:bg-cv-dark/20 overflow-hidden">
               <Image 
                 src={game.cover} 
                 alt={game.title} 
@@ -39,22 +39,22 @@ export default function GamerLife({ games }) {
             </div>
 
             {/* Game Content */}
-            <div className="p-5 flex flex-col flex-1 relative z-10 -mt-10 bg-gradient-to-b from-transparent to-[#1a1c1e] pt-10">
-              <h3 className="text-xl font-bold text-white mb-2 leading-tight">{game.title}</h3>
+            <div className="p-5 flex flex-col flex-1 relative z-10 -mt-10 bg-gradient-to-b from-transparent to-white dark:to-[#1a1c1e] pt-10">
+              <h3 className="text-xl font-bold text-cv-dark dark:text-white mb-2 leading-tight">{game.title}</h3>
               
               <div className="flex flex-wrap items-center gap-2 mb-3">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-cv-peach bg-cv-peach/10 px-2 py-0.5 rounded-full">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-cv-orange dark:text-cv-peach bg-cv-orange/10 dark:bg-cv-peach/10 px-2 py-0.5 rounded-full">
                   {game.platform}
                 </span>
-                <span className="text-[10px] font-bold uppercase tracking-wider text-white bg-white/10 px-2 py-0.5 rounded-full">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-cv-dark dark:text-white bg-black/5 dark:bg-white/10 px-2 py-0.5 rounded-full">
                   {game.style}
                 </span>
-                <span className="text-[10px] font-bold text-cv-light/60 border border-cv-dark/50 px-2 py-0.5 rounded-full">
+                <span className="text-[10px] font-bold text-gray-500 dark:text-cv-light/60 border border-gray-300 dark:border-cv-dark/50 px-2 py-0.5 rounded-full">
                   {game.releaseDate}
                 </span>
               </div>
 
-              <p className="text-sm text-cv-light/80 mb-6 flex-1 line-clamp-3">
+              <p className="text-sm text-gray-700 dark:text-cv-light/80 mb-6 flex-1 line-clamp-3">
                 {game.description}
               </p>
               

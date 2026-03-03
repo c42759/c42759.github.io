@@ -24,13 +24,13 @@ export default function WorkSetup({ setup }) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
         </div>
-        <h2 className="text-2xl font-bold text-white tracking-tight">My Setup</h2>
+        <h2 className="text-2xl font-bold text-cv-dark dark:text-white tracking-tight">My Setup</h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {Object.entries(categorized).map(([category, items], idx) => (
-          <div key={idx} className="bg-[#1a1c1e] border border-cv-dark/40 rounded-2xl p-6 hover:border-cv-orange/50 transition-colors duration-300">
-            <h3 className="text-lg font-bold text-cv-peach mb-4 flex items-center border-b border-cv-dark/50 pb-2">
+          <div key={idx} className="bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/40 rounded-2xl p-6 hover:border-cv-orange/50 transition-colors duration-300 shadow-sm dark:shadow-none">
+            <h3 className="text-lg font-bold text-cv-orange dark:text-cv-peach mb-4 flex items-center border-b border-gray-200 dark:border-cv-dark/50 pb-2">
               {category}
             </h3>
             <ul className="space-y-3">
@@ -39,7 +39,7 @@ export default function WorkSetup({ setup }) {
                   <span className="text-xs font-semibold text-cv-orange uppercase tracking-wider">
                     {item.category}
                   </span>
-                  <span className="text-sm text-cv-light">
+                  <span className="text-sm text-gray-800 dark:text-cv-light">
                     {item.name}
                   </span>
                 </li>

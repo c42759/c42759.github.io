@@ -1,8 +1,12 @@
 import Image from "next/image";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Header() {
   return (
     <header className="relative w-full max-w-4xl mx-auto pt-24 pb-12 px-6 flex flex-col md:flex-row items-center md:items-start md:space-x-8 text-center md:text-left gap-6">
+      <div className="absolute top-4 right-6 md:right-0">
+        <ThemeToggle />
+      </div>
       <div className="relative shrink-0">
         <div className="absolute inset-0 bg-cv-orange rounded-full blur-xl opacity-20 animate-pulse"></div>
         <div className="relative w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-cv-dark/50 shadow-2xl backdrop-blur-sm">
@@ -17,16 +21,16 @@ export default function Header() {
       </div>
       
       <div className="flex flex-col justify-center flex-1 z-10">
-        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-2 font-sans">
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-cv-dark dark:text-white mb-2 font-sans">
           Carlos <span className="text-cv-orange">Quintinha</span>
         </h1>
-        <h2 className="text-xl md:text-3xl text-cv-peach font-medium mb-4">
+        <h2 className="text-xl md:text-3xl text-cv-orange dark:text-cv-peach font-medium mb-4">
           Software Architect
         </h2>
         
         <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
           <div className="flex items-center justify-center md:justify-start space-x-4">
-            <span className="flex items-center space-x-1 bg-cv-dark/40 border border-cv-dark/60 rounded-full px-3 py-1 text-sm font-medium text-cv-light backdrop-blur-sm">
+            <span className="flex items-center space-x-1 bg-black/5 dark:bg-cv-dark/40 border border-black/10 dark:border-cv-dark/60 rounded-full px-3 py-1 text-sm font-medium text-cv-dark dark:text-cv-light backdrop-blur-sm shadow-sm dark:shadow-none">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
               <span>PT / EN</span>
             </span>
@@ -50,7 +54,7 @@ function SocialLink({ href, label, icon: Icon }) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={label}
-      className="p-2 bg-cv-dark/30 hover:bg-cv-orange/20 border border-cv-dark/50 hover:border-cv-orange/50 rounded-full transition-all duration-300 text-cv-light hover:text-cv-orange group shadow-lg"
+      className="p-2 bg-white/80 dark:bg-cv-dark/30 hover:bg-cv-orange/10 dark:hover:bg-cv-orange/20 border border-black/10 dark:border-cv-dark/50 hover:border-cv-orange/50 rounded-full transition-all duration-300 text-cv-dark dark:text-cv-light hover:text-cv-orange dark:hover:text-cv-orange group shadow-lg"
     >
       <Icon className="w-5 h-5 group-hover:scale-110 transition-transform" />
     </a>
