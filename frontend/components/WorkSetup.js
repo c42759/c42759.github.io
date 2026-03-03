@@ -27,7 +27,7 @@ export default function WorkSetup({ setup }) {
         <h2 className="text-2xl font-bold text-white tracking-tight">My Setup</h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {Object.entries(categorized).map(([category, items], idx) => (
           <div key={idx} className="bg-[#1a1c1e] border border-cv-dark/40 rounded-2xl p-6 hover:border-cv-orange/50 transition-colors duration-300">
             <h3 className="text-lg font-bold text-cv-peach mb-4 flex items-center border-b border-cv-dark/50 pb-2">

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "English Course",
+    "company": "EasyTalk",
+    "period": "10/2023 - 02/2024",
+    "description": "I completed a 40-hour English course to strengthen and certify my language skills, as well as to refine my understanding of advanced grammar and communication techniques."
+  },
+  {
+    "role": "PHP Course",
+    "company": "Galileu",
+    "period": "09/2012 - 10/2012",
+    "description": "For 40 hours I attended the PHP course to consolidate and certify my knowledge in this technology, as well as to finish my learning concerning the use of OOP."
+  },
+  {
+    "role": "Computer Engineering (Technologies and Information Systems)",
+    "company": "Aveiro University",
+    "period": "09/2010 - 01/2012",
+    "description": "I attended the course on Technologies and Information Systems (now called Computer Engineering) during the period indicated, having the opportunity to absorb knowledge in the area of Management, Digital Systems, Operating Systems, and Programming (Java), among other subjects."
+  },
+  {
+    "role": "Computer Technology",
+    "company": "IPSB",
+    "period": "09/2007 - 09/2010",
+    "description": "Student of the Computer Technological course dedicated to the Hardware, Management and Maintenance of Computer Networks during the period indicated, having the opportunity to absorb knowledge in a few programming languages such as Pascal, Visual Basic, C ++ and PHP, as well in development and implementation of computer networks."
+  }
+]
