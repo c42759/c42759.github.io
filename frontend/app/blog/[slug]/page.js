@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import blogData from '@/data/blog.json';
 import { notFound } from 'next/navigation';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 export async function generateStaticParams() {
   return blogData.map((post) => ({
@@ -42,8 +44,10 @@ export default async function BlogPost({ params }) {
             </div>
           </header>
           
-          <div className="prose prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-cv-light leading-relaxed whitespace-pre-wrap">
-            {post.content}
+          <div className="prose prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-cv-light leading-relaxed">
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+              {post.content}
+            </ReactMarkdown>
           </div>
         </article>
       </main>
