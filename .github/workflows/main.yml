@@ -19,13 +19,15 @@ jobs:
         with:
           version: 9
 
+      - name: Setup pnpm config
+        run: pnpm config set store-dir ${{ github.workspace }}/.pnpm-store
+
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22.x'
           cache: 'pnpm'
           cache-dependency-path: './frontend/pnpm-lock.yaml'
-      - name: Setup pnpm config
-        run: pnpm config set store-dir .pnpm-store
+
       - run: pnpm install --config.approve-builds=true
       - run: pnpm run build
