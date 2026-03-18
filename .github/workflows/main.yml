@@ -32,12 +32,14 @@ jobs:
 
       - run: pnpm install --config.approve-builds=true
       - run: pnpm run build
+      - run: ls -lah
+      - run: ls -lah ./build/
 
       - name: Upload static files as artifact
         id: deployment
         uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
         with:
-          path: build/
+          path: ./build/
 
   deploy:
     # Add a dependency to the build job
