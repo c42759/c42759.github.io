@@ -28,4 +28,4 @@ jobs:
       - name: Setup pnpm config
         run: pnpm config set store-dir .pnpm-store
       - run: pnpm install --config.approve-builds=true
-      - run: pnpm run build --if-present
+      - run: pnpm run build
