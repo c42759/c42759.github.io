@@ -33,12 +33,11 @@ jobs:
       - run: pnpm install --config.approve-builds=true
       - run: pnpm run build
 
-      # Deploy to GitHub Pages
-      # - uses: actions/checkout@v4
-      # - uses: actions/upload-pages-artifact@v3
-      #   with:
-      #     path: './build' # Path to your static files
-      # - uses: actions/deploy-pages@v4
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        with:
+          path: build/
 
   deploy:
     # Add a dependency to the build job
