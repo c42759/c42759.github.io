@@ -19,10 +19,12 @@ jobs:
         with:
           version: 9
 
+      # Setup pnpm config
       - name: Setup pnpm config
         run: echo "store-dir=${{ github.workspace }}/.pnpm-store" >> .npmrc
         working-directory: .
 
+      # Setup Node.js
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
@@ -30,3 +32,10 @@ jobs:
 
       - run: pnpm install --config.approve-builds=true
       - run: pnpm run build
+
+      # Deploy to GitHub Pages
+      - uses: actions/checkout@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.' # Path to your static files
+      - uses: actions/deploy-pages@v4
