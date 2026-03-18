@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: [self-hosted, linux, ubuntu-latest]
+    runs-on: [self-hosted, linux]
 
     defaults:
       run:
