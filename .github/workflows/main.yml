@@ -37,5 +37,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' # Path to your static files
+          path: './build' # Path to your static files
       - uses: actions/deploy-pages@v4
