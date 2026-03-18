@@ -2,6 +2,7 @@
 
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkBreaks from 'remark-breaks';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { oneDark, oneLight } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 import { useTheme } from 'next-themes';
@@ -15,10 +16,16 @@ export default function MarkdownRenderer({ content }) {
     setMounted(true);
   }, []);
 
+  // Ensure any literal "\n" characters from the JSON string are converted to real line breaks
+  const processedContent = content?.replace(/\\n/g, '\n');
+
   return (
     <ReactMarkdown
-      remarkPlugins={[remarkGfm]}
+      remarkPlugins={[remarkGfm, remarkBreaks]}
       components={{
+        p({ children, ...props }) {
+          return <p className="mb-4 whitespace-pre-line" {...props}>{children}</p>;
+        },
         code({ node, inline, className, children, ...props }) {
           const match = /language-(\w+)/.exec(className || '');
           const highlightTheme = mounted && resolvedTheme === 'light' ? oneLight : oneDark;
@@ -41,7 +48,7 @@ export default function MarkdownRenderer({ content }) {
         }
       }}
     >
-      {content}
+      {processedContent}
     </ReactMarkdown>
   );
 }

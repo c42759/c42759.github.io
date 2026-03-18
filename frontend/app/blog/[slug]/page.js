@@ -2,6 +2,8 @@ import Link from 'next/link';
 import blogData from '@/data/blog.json';
 import { notFound } from 'next/navigation';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
+import fs from 'fs';
+import path from 'path';
 
 export async function generateStaticParams() {
   return blogData.map((post) => ({
@@ -15,6 +17,12 @@ export default async function BlogPost({ params }) {
 
   if (!post) {
     notFound();
+  }
+
+  let content = post.content;
+  if (post.content_file) {
+    const filePath = path.join(process.cwd(), 'data', 'blog', post.content_file);
+    content = fs.readFileSync(filePath, 'utf8');
   }
 
   return (
@@ -44,7 +52,7 @@ export default async function BlogPost({ params }) {
           </header>
           
           <div className="prose prose-lg dark:prose-invert max-w-none text-gray-700 dark:text-cv-light leading-relaxed">
-            <MarkdownRenderer content={post.content} />
+            <MarkdownRenderer content={content} />
           </div>
         </article>
       </main>

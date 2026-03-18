@@ -3,7 +3,7 @@
     "id": 1,
     "slug": "welcome-to-my-cv",
     "title": "Welcome to my interactive CV",
-    "date": "2026-02-26",
+    "date": "2026-01-15",
     "excerpt": "This is the first post detailing the architecture and design decisions behind this cv.",
     "content": "Building an interactive CV is an interesting challenge.\n\n## Why an interactive CV?\n\nTraditional resumes are static and often fail to convey the depth of a developer's experience. An interactive CV allows me to:\n- Showcase my **skills** in a real-world application.\n- Provide a more engaging experience for recruiters and engineering managers.\n- Experiment with new technologies like **Next.js 16** and **React Server Components**.\n\n### Core Technologies\n\n1. Next.js App Router for dynamic routing.\n2. Tailwind CSS v4 for rapid and modern styling.\n3. Framer Motion for subtle micro-interactions.\n\nHere is a snippet of my `page.js` component:\n\n```javascript\nexport default function Home() {\n  return (\n    <main className=\"flex flex-col items-center\">\n      <Header />\n      <Timeline title=\"Professional Path\" items={professionalPath} />\n    </main>\n  );\n}\n```\n\nI hope you enjoy exploring the different sections as much as I enjoyed building them!"
   },
@@ -11,8 +11,16 @@
     "id": 2,
     "slug": "automating-workflows-with-github-actions",
     "title": "Automating workflows with GitHub Actions",
-    "date": "2026-01-15",
+    "date": "2026-02-26",
     "excerpt": "A deep dive into how I automated our CI/CD pipelines.",
-    "content": "Automation is key in modern software development. Time spent on repetitive tasks is time taken away from building features.\n\n## CI/CD Pipeline\n\nMy typical GitHub Actions workflow includes several essential jobs:\n\n| Job Name | Description |\n| :--- | :--- |\n| **Linting** | Runs ESLint and Prettier to ensure code consistency. |\n| **Testing** | Executes the Jest test suite to check for regressions. |\n| **Build** | Creates the production build of the Next.js application. |\n\nHere's an example of a simple GitHub Actions YAML configuration:\n\n```yaml\nname: CI\n\non:\n  push:\n    branches:\n      - main\n\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n      - name: Use Node.js\n        uses: actions/setup-node@v4\n        with:\n          node-version: '20.x'\n      - run: npm ci\n      - run: npm run test\n```\n\nAutomating the deployments means I can confidently merge PRs, knowing that checks will ensure only passing code hits production."
+    "content_file": "2026-02-26-automating-workflows-with-github-actions.md"
+  },
+  {
+    "id": 3,
+    "slug": "folder-size-within-linux",
+    "title": "Folder size within Linux",
+    "date": "2026-03-18",
+    "excerpt": "A deep dive into how to check folder size within Linux.",
+    "content_file": "2026-03-18-folder-size-within-linux.md"
   }
 ]
