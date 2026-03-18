@@ -40,7 +40,7 @@ export default function GamerLife({ games }) {
 
             {/* Game Content */}
             <div className="p-5 flex flex-col flex-1 relative z-10 -mt-10 bg-gradient-to-b from-transparent to-white dark:to-[#1a1c1e] pt-10">
-              <h3 className="text-xl font-bold text-cv-dark dark:text-white mb-2 leading-tight">{game.title}</h3>
+              <h3 className="text-xl font-bold text-cv-dark dark:text-white mt-4 mb-2 leading-tight">{game.title}</h3>
               
               <div className="flex flex-wrap items-center gap-2 mb-3">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-cv-orange dark:text-cv-peach bg-cv-orange/10 dark:bg-cv-peach/10 px-2 py-0.5 rounded-full">
@@ -60,11 +60,11 @@ export default function GamerLife({ games }) {
               
               <div className="flex items-center justify-between text-xs font-medium pt-4 border-t border-cv-dark/50">
                 <div className="flex flex-col">
-                  <span className="text-cv-light/60">Completion</span>
+                  <span className="dark:text-cv-light/60 text-cv-dark/60">Completion</span>
                   <span className="text-cv-orange">{game.completion}%</span>
                 </div>
                 <div className="flex flex-col text-right">
-                  <span className="text-cv-light/60">Playtime</span>
+                  <span className="dark:text-cv-light/60 text-cv-dark/60">Playtime</span>
                   <span className="text-cv-peach">{game.hoursPlayed} hrs</span>
                 </div>
               </div>
