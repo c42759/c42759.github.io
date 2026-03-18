@@ -25,5 +25,7 @@ jobs:
           node-version: '22.x'
           cache: 'pnpm'
           cache-dependency-path: './frontend/pnpm-lock.yaml'
-      - run: pnpm install
+      - name: Setup pnpm config
+        run: pnpm config set store-dir .pnpm-store
+      - run: pnpm install --config.approve-builds=true
       - run: pnpm run build --if-present
