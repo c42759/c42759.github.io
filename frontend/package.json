@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "static": "next build && rm -rf ../docs/ && mv build ../docs"
+    "static": "next build && rm -rf ../docs/ && mv build ../docs && cd .. && ./run_underscore_reference.sh ./docs _next next && ./run_underscore_reference.sh ./docs _not-found not-found"
   },
   "dependencies": {
     "next": "16.1.7",
