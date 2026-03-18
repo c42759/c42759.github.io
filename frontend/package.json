@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "static": "next build && rm -rf ../docs/ && mv build ../docs && cp ../.nojekyll ../docs/.nojekyll"
+    "static": "next build && rm -rf ../docs/ && mv build ../docs"
   },
   "dependencies": {
     "next": "16.1.6",
