@@ -22,5 +22,13 @@
     "date": "2026-03-18",
     "excerpt": "A deep dive into how to check folder size within Linux.",
     "content_file": "2026-03-18-folder-size-within-linux.md"
+  },
+  {
+    "id": 4,
+    "slug": "10-tricks-with-ffmpeg-on-linux",
+    "title": "10 tricks you can do with FFmpeg on Linux",
+    "date": "2026-03-20",
+    "excerpt": "A deep dive into how to check folder size within Linux.",
+    "content_file": "2026-03-20-10-tricks-with-ffmpeg-on-linux.md"
   }
 ]
