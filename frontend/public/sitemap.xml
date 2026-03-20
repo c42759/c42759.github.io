@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://c42759.github.io</loc>
+    <lastmod>2026-03-20T17:06:58+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://c42759.github.io/blog/10-tricks-with-ffmpeg-on-linux/</loc>
+    <lastmod>2026-03-20T17:06:58+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://c42759.github.io/blog/automating-workflows-with-github-actions/</loc>
+    <lastmod>2026-03-20T17:06:58+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://c42759.github.io/blog/folder-size-within-linux/</loc>
+    <lastmod>2026-03-20T17:06:58+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://c42759.github.io/blog/kubernetes-time-saving-aliases/</loc>
+    <lastmod>2026-03-20T17:06:58+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://c42759.github.io/blog/welcome-to-my-cv/</loc>
+    <lastmod>2026-03-20T17:06:58+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+</urlset>
