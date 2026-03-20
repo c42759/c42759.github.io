@@ -622,5 +622,17 @@
     "releaseDate": "2013",
     "platform": "Multi-platform",
     "style": "Action-Adventure"
+  },
+  {
+    "id": 53,
+    "title": "Tom Clancy's The Division 2",
+    "cover": "/games/the_division_2.jpg",
+    "description": "Save Washington D.C. from collapse.",
+    "completion": 100,
+    "evaluation": "-",
+    "hoursPlayed": "74h 35m",
+    "releaseDate": "2019",
+    "platform": "Multi-platform",
+    "style": "Looter Shooter"
   }
 ]
