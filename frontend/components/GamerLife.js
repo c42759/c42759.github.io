@@ -5,11 +5,15 @@ import Image from 'next/image';
 export default function GamerLife({ games }) {
   const [viewMode, setViewMode] = useState('card'); // 'card' or 'list'
   const [filter, setFilter] = useState('All'); // 'All', 'Completed', 'Started', 'Not Started'
+  const [searchQuery, setSearchQuery] = useState('');
 
   // Sort games by title alphabetically
   const sortedGames = [...games].sort((a, b) => a.title.localeCompare(b.title));
   
   const filteredGames = sortedGames.filter((game) => {
+    if (searchQuery && !game.title.toLowerCase().includes(searchQuery.toLowerCase())) {
+      return false;
+    }
     if (filter === 'All') return true;
     if (filter === 'Completed') return game.completion === 100;
     if (filter === 'Started') return game.completion > 0 && game.completion < 100;
@@ -31,7 +35,23 @@ export default function GamerLife({ games }) {
         </div>
 
         {/* Controls */}
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="flex flex-wrap items-center gap-3">
+          {/* Search Input */}
+          <div className="relative">
+            <input 
+              type="text" 
+              placeholder="Search games..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 text-cv-dark dark:text-white text-sm rounded-lg focus:ring-cv-orange focus:border-cv-orange block w-full sm:w-48 pl-9 p-2 outline-none"
+            />
+            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+              <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+          </div>
+
           <select 
             value={filter} 
             onChange={(e) => setFilter(e.target.value)}
