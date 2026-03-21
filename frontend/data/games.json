@@ -9,7 +9,21 @@
     "hoursPlayed": "-",
     "releaseDate": "1996",
     "platform": "Game Boy",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four and Champion",
+        "completed": false
+      },
+      {
+        "description": "Complete the Pokédex",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 2,
@@ -21,7 +35,21 @@
     "hoursPlayed": "-",
     "releaseDate": "1996",
     "platform": "Game Boy",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four and Champion",
+        "completed": false
+      },
+      {
+        "description": "Complete the Pokédex",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 3,
@@ -33,7 +61,21 @@
     "hoursPlayed": "-",
     "releaseDate": "1998",
     "platform": "Game Boy",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four and Champion",
+        "completed": false
+      },
+      {
+        "description": "Complete the Pokédex",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 4,
@@ -45,7 +87,21 @@
     "hoursPlayed": "-",
     "releaseDate": "1999",
     "platform": "Game Boy Color",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Johto Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four",
+        "completed": false
+      },
+      {
+        "description": "Defeat Red at Mt. Silver",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 5,
@@ -57,7 +113,21 @@
     "hoursPlayed": "-",
     "releaseDate": "1999",
     "platform": "Game Boy Color",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Johto Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four",
+        "completed": false
+      },
+      {
+        "description": "Defeat Red at Mt. Silver",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 6,
@@ -69,7 +139,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2000",
     "platform": "Game Boy Color",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Johto Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four",
+        "completed": false
+      },
+      {
+        "description": "Defeat Red at Mt. Silver",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 7,
@@ -81,7 +165,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2002",
     "platform": "Game Boy Advance",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Hoenn Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Stop Team Magma",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 8,
@@ -93,7 +191,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2002",
     "platform": "Game Boy Advance",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Hoenn Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Stop Team Aqua",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 9,
@@ -105,7 +217,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2004",
     "platform": "Game Boy Advance",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Hoenn Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Resolve the conflict between Team Magma and Team Aqua",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four and Champion",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 10,
@@ -117,7 +243,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2018",
     "platform": "Nintendo Switch",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Kanto Gym Leaders",
+        "completed": true
+      },
+      {
+        "description": "Defeat the Elite Four and Champion",
+        "completed": true
+      },
+      {
+        "description": "Complete the Pokédex",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 11,
@@ -129,7 +269,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2019",
     "platform": "Nintendo Switch",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Galar Gym Leaders",
+        "completed": true
+      },
+      {
+        "description": "Defeat Champion Leon",
+        "completed": true
+      },
+      {
+        "description": "Complete the Pokédex",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 12,
@@ -141,7 +295,21 @@
     "hoursPlayed": "60h",
     "releaseDate": "2022",
     "platform": "Nintendo Switch",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Victory Road: Defeat 8 Gym Leaders and Champion",
+        "completed": true
+      },
+      {
+        "description": "Path of Legends: Defeat 5 Titan Pokémon",
+        "completed": true
+      },
+      {
+        "description": "Starfall Street: Defeat Team Star Bosses",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 13,
@@ -153,7 +321,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2022",
     "platform": "Nintendo Switch",
-    "style": "Action RPG"
+    "style": "Action RPG",
+    "objectives": [
+      {
+        "description": "Quell all the Frenzied Noble Pokémon",
+        "completed": false
+      },
+      {
+        "description": "Complete the Hisui Pokédex",
+        "completed": false
+      },
+      {
+        "description": "Seek out all Pokémon to meet Arceus",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 14,
@@ -165,7 +347,21 @@
     "hoursPlayed": "55h",
     "releaseDate": "2025",
     "platform": "Nintendo Switch",
-    "style": "Action RPG"
+    "style": "Action RPG",
+    "objectives": [
+      {
+        "description": "Explore Lumiose City",
+        "completed": false
+      },
+      {
+        "description": "Complete the Urban Revelopment Plan",
+        "completed": false
+      },
+      {
+        "description": "Discover the secrets of Zygarde",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 15,
@@ -177,7 +373,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2010",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Defeat the Destroyer",
+        "completed": true
+      },
+      {
+        "description": "Find all the Abyssal Armor pieces",
+        "completed": true
+      },
+      {
+        "description": "Clear your name",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 16,
@@ -189,7 +399,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2012",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Restore Humanity",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Avatar of Chaos",
+        "completed": false
+      },
+      {
+        "description": "Find the Tree of Life",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 17,
@@ -201,7 +425,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2018",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Defeat the Seven Deadly Sins",
+        "completed": false
+      },
+      {
+        "description": "Discover the Charred Council's secret",
+        "completed": false
+      },
+      {
+        "description": "Save Humanity",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 18,
@@ -213,7 +451,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2004",
     "platform": "Multi-platform",
-    "style": "Racing"
+    "style": "Racing",
+    "objectives": [
+      {
+        "description": "Unlock all city areas",
+        "completed": false
+      },
+      {
+        "description": "Defeat Caleb in a Street Race",
+        "completed": false
+      },
+      {
+        "description": "Reach maximum car visual rating",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 19,
@@ -225,7 +477,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2019",
     "platform": "Multi-platform",
-    "style": "Racing"
+    "style": "Racing",
+    "objectives": [
+      {
+        "description": "Win the Showdown",
+        "completed": false
+      },
+      {
+        "description": "Take down the corrupt police task force",
+        "completed": false
+      },
+      {
+        "description": "Reach Reputation Level 50",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 20,
@@ -237,7 +503,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2010",
     "platform": "Multi-platform",
-    "style": "Racing"
+    "style": "Racing",
+    "objectives": [
+      {
+        "description": "Complete the Racer Career",
+        "completed": false
+      },
+      {
+        "description": "Complete the Cop Career",
+        "completed": false
+      },
+      {
+        "description": "Earn Gold in all events",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 21,
@@ -249,7 +529,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2002",
     "platform": "PC",
-    "style": "RTS"
+    "style": "RTS",
+    "objectives": [
+      {
+        "description": "Complete the Human Campaign",
+        "completed": false
+      },
+      {
+        "description": "Complete the Undead Campaign",
+        "completed": false
+      },
+      {
+        "description": "Complete the Orc and Night Elf Campaigns",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 22,
@@ -261,7 +555,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2004",
     "platform": "PC",
-    "style": "MMORPG"
+    "style": "MMORPG",
+    "objectives": [
+      {
+        "description": "Reach Level Custom/Max",
+        "completed": false
+      },
+      {
+        "description": "Complete the Main Story Campaign",
+        "completed": false
+      },
+      {
+        "description": "Defeat the end expansion raid boss",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 23,
@@ -273,7 +581,17 @@
     "hoursPlayed": "-",
     "releaseDate": "1998",
     "platform": "PC",
-    "style": "RTS"
+    "style": "RTS",
+    "objectives": [
+      {
+        "description": "Complete the Shattered Kingdom Campaign",
+        "completed": false
+      },
+      {
+        "description": "Complete the Peasants Rebellion Campaign",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 24,
@@ -285,7 +603,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2002",
     "platform": "Game Boy Advance",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Win the Robattle Tournament",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Rubberrobo Gang",
+        "completed": false
+      },
+      {
+        "description": "Collect all Medaparts",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 25,
@@ -297,7 +629,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2002",
     "platform": "Game Boy Advance",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Win the Robattle Tournament",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Rubberrobo Gang",
+        "completed": false
+      },
+      {
+        "description": "Collect all Medaparts",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 26,
@@ -309,7 +655,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2009",
     "platform": "PC",
-    "style": "Simulation"
+    "style": "Simulation",
+    "objectives": [
+      {
+        "description": "Fulfill your Sim's Lifetime Wish",
+        "completed": false
+      },
+      {
+        "description": "Reach the top of a career track",
+        "completed": false
+      },
+      {
+        "description": "Buy the most expensive house",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 27,
@@ -321,7 +681,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2014",
     "platform": "PC",
-    "style": "Simulation"
+    "style": "Simulation",
+    "objectives": [
+      {
+        "description": "Complete an Aspiration",
+        "completed": false
+      },
+      {
+        "description": "Max out three distinct skills",
+        "completed": false
+      },
+      {
+        "description": "Build a multi-generation family",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 28,
@@ -333,7 +707,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2015",
     "platform": "PC",
-    "style": "MOBA"
+    "style": "MOBA",
+    "objectives": [
+      {
+        "description": "Complete the Tutorial",
+        "completed": false
+      },
+      {
+        "description": "Win 100 Multiplayer Matches",
+        "completed": false
+      },
+      {
+        "description": "Unlock all pets",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 29,
@@ -345,7 +733,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2013",
     "platform": "PC",
-    "style": "MOBA"
+    "style": "MOBA",
+    "objectives": [
+      {
+        "description": "Complete the new player experience",
+        "completed": false
+      },
+      {
+        "description": "Calibrate your Ranked MMR",
+        "completed": false
+      },
+      {
+        "description": "Win a match with every hero in the roster",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 30,
@@ -357,7 +759,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2000",
     "platform": "PC",
-    "style": "FPS"
+    "style": "FPS",
+    "objectives": [
+      {
+        "description": "Win a competitive match",
+        "completed": false
+      },
+      {
+        "description": "Get 1,000 headshots",
+        "completed": false
+      },
+      {
+        "description": "Learn specific map smoke/flash spots",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 31,
@@ -369,7 +785,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2004",
     "platform": "PC",
-    "style": "FPS"
+    "style": "FPS",
+    "objectives": [
+      {
+        "description": "Score a 5-kill ace",
+        "completed": false
+      },
+      {
+        "description": "Win 100 rounds",
+        "completed": false
+      },
+      {
+        "description": "Master the AWP",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 32,
@@ -381,7 +811,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2023",
     "platform": "PC",
-    "style": "FPS"
+    "style": "FPS",
+    "objectives": [
+      {
+        "description": "Achieve Global Elite or max Premier Rating",
+        "completed": false
+      },
+      {
+        "description": "Earn a Service Medal",
+        "completed": false
+      },
+      {
+        "description": "Perfect the new smoke mechanics",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 33,
@@ -393,7 +837,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2012",
     "platform": "PC",
-    "style": "Simulation"
+    "style": "Simulation",
+    "objectives": [
+      {
+        "description": "Release a 10/10 Game",
+        "completed": false
+      },
+      {
+        "description": "Reach the AAA Phase",
+        "completed": false
+      },
+      {
+        "description": "Create your own console",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 34,
@@ -405,7 +863,21 @@
     "hoursPlayed": "14h",
     "releaseDate": "2010",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Defeat the Joker",
+        "completed": true
+      },
+      {
+        "description": "Solve all Riddler Trophies",
+        "completed": true
+      },
+      {
+        "description": "Complete Challenge Maps",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 35,
@@ -417,7 +889,21 @@
     "hoursPlayed": "11h 40m",
     "releaseDate": "2013",
     "platform": "PC",
-    "style": "Tower Offense"
+    "style": "Tower Offense",
+    "objectives": [
+      {
+        "description": "Complete the Single Player Campaign",
+        "completed": true
+      },
+      {
+        "description": "Defeat the Alien Towers",
+        "completed": true
+      },
+      {
+        "description": "Win a Multiplayer Match",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 36,
@@ -429,7 +915,21 @@
     "hoursPlayed": "10.3",
     "releaseDate": "1998",
     "platform": "Dreamcast",
-    "style": "Platformer"
+    "style": "Platformer",
+    "objectives": [
+      {
+        "description": "Complete Sonic's Story",
+        "completed": true
+      },
+      {
+        "description": "Complete all Character Stories",
+        "completed": true
+      },
+      {
+        "description": "Unlock Super Sonic",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 37,
@@ -441,7 +941,21 @@
     "hoursPlayed": "9h 30m",
     "releaseDate": "2011",
     "platform": "Multi-platform",
-    "style": "Vehicular Combat"
+    "style": "Vehicular Combat",
+    "objectives": [
+      {
+        "description": "Defeat Inferno",
+        "completed": true
+      },
+      {
+        "description": "Max out vehicle upgrades",
+        "completed": true
+      },
+      {
+        "description": "Complete Co-op Campaign",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 38,
@@ -453,7 +967,21 @@
     "hoursPlayed": "8h 45m",
     "releaseDate": "2014",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Defeat the Tower and the Black Hand of Sauron",
+        "completed": false
+      },
+      {
+        "description": "Brand 5 Warchiefs",
+        "completed": false
+      },
+      {
+        "description": "Find all Ithildin and Artifacts",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 39,
@@ -465,7 +993,21 @@
     "hoursPlayed": "6h 20m",
     "releaseDate": "2009",
     "platform": "PC",
-    "style": "FPS"
+    "style": "FPS",
+    "objectives": [
+      {
+        "description": "Complete all Campaigns on Normal",
+        "completed": false
+      },
+      {
+        "description": "Complete a Campaign on Expert Realism",
+        "completed": false
+      },
+      {
+        "description": "Survive all Scavenge maps",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 40,
@@ -477,7 +1019,21 @@
     "hoursPlayed": "5h 30m",
     "releaseDate": "2012",
     "platform": "PC",
-    "style": "Beat 'em up"
+    "style": "Beat 'em up",
+    "objectives": [
+      {
+        "description": "Defeat Magnus",
+        "completed": true
+      },
+      {
+        "description": "Complete the Survival Mode map",
+        "completed": true
+      },
+      {
+        "description": "Unlock all costumes",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 41,
@@ -489,7 +1045,21 @@
     "hoursPlayed": "4h",
     "releaseDate": "2008",
     "platform": "Multi-platform",
-    "style": "Racing"
+    "style": "Racing",
+    "objectives": [
+      {
+        "description": "Win the GRID World Series",
+        "completed": false
+      },
+      {
+        "description": "Earn all Gold Trophies",
+        "completed": false
+      },
+      {
+        "description": "Buy the most expensive car",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 42,
@@ -501,7 +1071,21 @@
     "hoursPlayed": "3h",
     "releaseDate": "2011",
     "platform": "PC",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Complete the Campaign",
+        "completed": false
+      },
+      {
+        "description": "Defeat Assatur",
+        "completed": false
+      },
+      {
+        "description": "Unlock all Magicks",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 43,
@@ -513,7 +1097,21 @@
     "hoursPlayed": "12h",
     "releaseDate": "2010",
     "platform": "PC",
-    "style": "Tower Defense"
+    "style": "Tower Defense",
+    "objectives": [
+      {
+        "description": "Defeat Dr. Zomboss in Adventure Mode",
+        "completed": true
+      },
+      {
+        "description": "Complete all Minigames",
+        "completed": true
+      },
+      {
+        "description": "Grow the Tree of Wisdom to 100 feet",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 44,
@@ -525,7 +1123,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2011",
     "platform": "Multi-platform",
-    "style": "Platformer"
+    "style": "Platformer",
+    "objectives": [
+      {
+        "description": "Defeat the Time Eater",
+        "completed": false
+      },
+      {
+        "description": "Collect all Red Star Rings",
+        "completed": false
+      },
+      {
+        "description": "Complete all Challenge Acts",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 45,
@@ -537,7 +1149,21 @@
     "hoursPlayed": "6h",
     "releaseDate": "2003",
     "platform": "PC",
-    "style": "Puzzle"
+    "style": "Puzzle",
+    "objectives": [
+      {
+        "description": "Complete Season 1",
+        "completed": true
+      },
+      {
+        "description": "Complete Season 2",
+        "completed": true
+      },
+      {
+        "description": "Complete Season 3 with 100% ratings",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 46,
@@ -549,7 +1175,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2004",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Complete the Main Story",
+        "completed": false
+      },
+      {
+        "description": "Take over all Gang Territories",
+        "completed": false
+      },
+      {
+        "description": "Achieve 100% Completion",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 47,
@@ -561,7 +1201,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2007",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Assassinate all 9 Targets",
+        "completed": true
+      },
+      {
+        "description": "Uncover the truth about Abstergo",
+        "completed": true
+      },
+      {
+        "description": "Collect all Templar Flags",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 48,
@@ -573,7 +1227,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2009",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Defeat Rodrigo Borgia",
+        "completed": true
+      },
+      {
+        "description": "Upgrade the Villa Auditore completely",
+        "completed": true
+      },
+      {
+        "description": "Find all the Assassin Tombs",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 49,
@@ -585,7 +1253,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2010",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Liberate Rome from the Borgias",
+        "completed": true
+      },
+      {
+        "description": "Rebuild the city and landmarks",
+        "completed": true
+      },
+      {
+        "description": "Train your Assassin recruits to max rank",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 50,
@@ -597,7 +1279,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2011",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Uncover Altaïr's Memories",
+        "completed": true
+      },
+      {
+        "description": "Save Constantinople",
+        "completed": true
+      },
+      {
+        "description": "Find all Masyaf Keys",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 51,
@@ -609,7 +1305,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2012",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Complete Connor's Journey",
+        "completed": false
+      },
+      {
+        "description": "Build up the Homestead",
+        "completed": false
+      },
+      {
+        "description": "Complete all Naval Missions",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 52,
@@ -621,7 +1331,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2013",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Uncover the Observatory",
+        "completed": false
+      },
+      {
+        "description": "Defeat all Legendary Ships",
+        "completed": false
+      },
+      {
+        "description": "Fully upgrade the Jackdaw",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 53,
@@ -633,7 +1357,21 @@
     "hoursPlayed": "74h 35m",
     "releaseDate": "2019",
     "platform": "Multi-platform",
-    "style": "Looter Shooter"
+    "style": "Looter Shooter",
+    "objectives": [
+      {
+        "description": "Reach Level 30",
+        "completed": true
+      },
+      {
+        "description": "Clear Capitol Building Stronghold",
+        "completed": true
+      },
+      {
+        "description": "Reach World Tier 5",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 54,
@@ -645,7 +1383,21 @@
     "hoursPlayed": "4h 50m",
     "releaseDate": "2004",
     "platform": "Game Boy Advance",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Defeat the Elite Four and Champion",
+        "completed": false
+      },
+      {
+        "description": "Catch Mewtwo",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 55,
@@ -657,7 +1409,21 @@
     "hoursPlayed": "8h",
     "releaseDate": "2018",
     "platform": "Nintendo Switch",
-    "style": "Fighting"
+    "style": "Fighting",
+    "objectives": [
+      {
+        "description": "Unlock all Characters",
+        "completed": false
+      },
+      {
+        "description": "Complete World of Light",
+        "completed": false
+      },
+      {
+        "description": "Clear Classic Mode with everyone",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 56,
@@ -669,7 +1435,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2019",
     "platform": "Nintendo Switch",
-    "style": "Fitness RPG"
+    "style": "Fitness RPG",
+    "objectives": [
+      {
+        "description": "Defeat Dragaux in Adventure Mode",
+        "completed": false
+      },
+      {
+        "description": "Reach Level 100",
+        "completed": false
+      },
+      {
+        "description": "Complete all Minigames",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 57,
@@ -681,7 +1461,21 @@
     "hoursPlayed": "4h",
     "releaseDate": "2018",
     "platform": "Multi-platform",
-    "style": "Party"
+    "style": "Party",
+    "objectives": [
+      {
+        "description": "Complete the Main Campaign",
+        "completed": false
+      },
+      {
+        "description": "Earn 3 stars on every level",
+        "completed": false
+      },
+      {
+        "description": "Unlock all Chefs",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 58,
@@ -693,7 +1487,21 @@
     "hoursPlayed": "15h",
     "releaseDate": "2021",
     "platform": "Nintendo Switch",
-    "style": "MOBA"
+    "style": "MOBA",
+    "objectives": [
+      {
+        "description": "Reach Master Rank in Ranked Matches",
+        "completed": true
+      },
+      {
+        "description": "Unlock 20 Pokémon Licenses",
+        "completed": true
+      },
+      {
+        "description": "Reach Trainer Level 40",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 59,
@@ -705,7 +1513,21 @@
     "hoursPlayed": "7h",
     "releaseDate": "2020",
     "platform": "Multi-platform",
-    "style": "Action RPG"
+    "style": "Action RPG",
+    "objectives": [
+      {
+        "description": "Defeat Kid Buu",
+        "completed": false
+      },
+      {
+        "description": "Collect all 7 Dragon Balls",
+        "completed": false
+      },
+      {
+        "description": "Max out all skill trees",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 60,
@@ -717,7 +1539,21 @@
     "hoursPlayed": "30h",
     "releaseDate": "2022",
     "platform": "Nintendo Switch",
-    "style": "Fitness"
+    "style": "Fitness",
+    "objectives": [
+      {
+        "description": "Complete a 30-day challenge",
+        "completed": true
+      },
+      {
+        "description": "Unlock all custom workout routines",
+        "completed": true
+      },
+      {
+        "description": "Earn all workout achievements",
+        "completed": true
+      }
+    ]
   },
   {
     "id": 61,
@@ -729,7 +1565,21 @@
     "hoursPlayed": "20h",
     "releaseDate": "2020",
     "platform": "Multi-platform",
-    "style": "Action RPG"
+    "style": "Action RPG",
+    "objectives": [
+      {
+        "description": "Defeat the Arch-Illager",
+        "completed": false
+      },
+      {
+        "description": "Complete all levels on Default difficulty",
+        "completed": false
+      },
+      {
+        "description": "Unlock Apocalypse difficulty",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 62,
@@ -741,7 +1591,21 @@
     "hoursPlayed": "20h",
     "releaseDate": "2018",
     "platform": "Nintendo Switch",
-    "style": "Party"
+    "style": "Party",
+    "objectives": [
+      {
+        "description": "Unlock all Boards",
+        "completed": false
+      },
+      {
+        "description": "Play every Minigame",
+        "completed": false
+      },
+      {
+        "description": "Complete Challenge Road",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 63,
@@ -753,7 +1617,21 @@
     "hoursPlayed": "10h",
     "releaseDate": "2021",
     "platform": "Nintendo Switch",
-    "style": "RPG"
+    "style": "RPG",
+    "objectives": [
+      {
+        "description": "Defeat all 8 Sinnoh Gym Leaders",
+        "completed": false
+      },
+      {
+        "description": "Defeat Cynthia and the Elite Four",
+        "completed": false
+      },
+      {
+        "description": "Unlock the National Dex",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 64,
@@ -765,7 +1643,21 @@
     "hoursPlayed": "1h",
     "releaseDate": "2011",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Execute Protocol 10",
+        "completed": false
+      },
+      {
+        "description": "Complete all Side Missions",
+        "completed": false
+      },
+      {
+        "description": "Defeat Ra's al Ghul",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 65,
@@ -777,7 +1669,21 @@
     "hoursPlayed": "-",
     "releaseDate": "2013",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Survive the Night of Assassins",
+        "completed": false
+      },
+      {
+        "description": "Defeat Bane",
+        "completed": false
+      },
+      {
+        "description": "Solve all Enigma Datapacks",
+        "completed": false
+      }
+    ]
   },
   {
     "id": 66,
@@ -789,6 +1695,20 @@
     "hoursPlayed": "-",
     "releaseDate": "2015",
     "platform": "Multi-platform",
-    "style": "Action-Adventure"
+    "style": "Action-Adventure",
+    "objectives": [
+      {
+        "description": "Defeat the Arkham Knight",
+        "completed": false
+      },
+      {
+        "description": "Activate the Knightfall Protocol",
+        "completed": false
+      },
+      {
+        "description": "Capture all Gotham's Most Wanted",
+        "completed": false
+      }
+    ]
   }
 ]

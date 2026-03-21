@@ -76,7 +76,7 @@ export default function GamerLife({ games }) {
             viewMode === 'card' ? (
               <div key={game.id} className="group relative rounded-2xl overflow-hidden bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cv-orange/10 flex flex-col h-full">
                 {/* Game Cover */}
-                <div className="relative h-64 w-full bg-gray-200 dark:bg-cv-dark/20 overflow-hidden">
+                <div className="relative h-48 w-full bg-gray-200 dark:bg-cv-dark/20 overflow-hidden shrink-0">
                   <Image 
                     src={game.cover} 
                     alt={game.title} 
@@ -94,8 +94,8 @@ export default function GamerLife({ games }) {
                 </div>
 
                 {/* Game Content */}
-                <div className="p-5 flex flex-col flex-1 relative z-10 -mt-10 bg-gradient-to-b from-transparent to-white dark:to-[#1a1c1e] pt-10">
-                  <h3 className="text-xl font-bold text-cv-dark dark:text-white mt-4 mb-2 leading-tight">{game.title}</h3>
+                <div className="p-5 flex flex-col flex-1 relative z-10 -mt-8 bg-gradient-to-b from-transparent to-white dark:to-[#1a1c1e] pt-8">
+                  <h3 className="text-lg font-bold text-cv-dark dark:text-white mt-2 mb-2 leading-tight">{game.title}</h3>
                   
                   <div className="flex flex-wrap items-center gap-2 mb-3">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-cv-orange dark:text-cv-peach bg-cv-orange/10 dark:bg-cv-peach/10 px-2 py-0.5 rounded-full">
@@ -104,23 +104,42 @@ export default function GamerLife({ games }) {
                     <span className="text-[10px] font-bold uppercase tracking-wider text-cv-dark dark:text-white bg-black/5 dark:bg-white/10 px-2 py-0.5 rounded-full">
                       {game.style}
                     </span>
-                    <span className="text-[10px] font-bold text-gray-500 dark:text-cv-light/60 border border-gray-300 dark:border-cv-dark/50 px-2 py-0.5 rounded-full">
-                      {game.releaseDate}
-                    </span>
                   </div>
 
-                  <p className="text-sm text-gray-700 dark:text-cv-light/80 mb-6 flex-1 line-clamp-3">
+                  <p className="text-sm text-gray-700 dark:text-cv-light/80 mb-4 flex-1 line-clamp-2">
                     {game.description}
                   </p>
+
+                  {/* Objectives for Card */}
+                  {game.objectives && game.objectives.length > 0 && (
+                    <div className="mb-4">
+                      <div className="space-y-1.5">
+                        {game.objectives.slice(0, 3).map((obj, i) => (
+                          <div key={i} className="flex items-start gap-2 text-[11px]">
+                            {obj.completed ? (
+                              <svg className="w-3.5 h-3.5 text-green-500 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                              </svg>
+                            ) : (
+                              <svg className="w-3.5 h-3.5 text-gray-300 dark:text-gray-600 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                            )}
+                            <span className={`line-clamp-1 ${obj.completed ? "text-gray-400 dark:text-cv-light/50 line-through" : "text-cv-dark/80 dark:text-white"}`}>{obj.description}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                   
-                  <div className="flex items-center justify-between text-xs font-medium pt-4 border-t border-cv-dark/50">
+                  <div className="flex items-center justify-between text-xs font-medium pt-3 border-t border-cv-dark/10 dark:border-cv-dark/50 mt-auto">
                     <div className="flex flex-col">
                       <span className="dark:text-cv-light/60 text-cv-dark/60">Completion</span>
-                      <span className="text-cv-orange">{game.completion}%</span>
+                      <span className="text-cv-orange font-bold text-sm">{game.completion}%</span>
                     </div>
                     <div className="flex flex-col text-right">
                       <span className="dark:text-cv-light/60 text-cv-dark/60">Playtime</span>
-                      <span className="text-cv-peach">{game.hoursPlayed} hrs</span>
+                      <span className="text-cv-peach font-bold text-sm">{game.hoursPlayed} hrs</span>
                     </div>
                   </div>
                 </div>
@@ -165,6 +184,29 @@ export default function GamerLife({ games }) {
                   <p className="text-sm text-gray-700 dark:text-cv-light/80 mb-4 flex-1">
                     {game.description}
                   </p>
+
+                  {/* Objectives for List */}
+                  {game.objectives && game.objectives.length > 0 && (
+                    <div className="mb-4">
+                      <p className="text-[10px] font-bold text-gray-400 dark:text-cv-light/40 mb-1.5 uppercase tracking-wider">Objectives</p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2">
+                        {game.objectives.map((obj, i) => (
+                          <div key={i} className="flex items-start gap-2 text-xs">
+                            {obj.completed ? (
+                              <svg className="w-4 h-4 text-green-500 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                              </svg>
+                            ) : (
+                              <svg className="w-4 h-4 text-gray-300 dark:text-gray-600 mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                              </svg>
+                            )}
+                            <span className={obj.completed ? "text-gray-400 dark:text-cv-light/50 line-through" : "text-cv-dark/80 dark:text-white"}>{obj.description}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                   
                   <div className="flex items-center space-x-8 text-xs font-medium pt-4 border-t border-gray-100 dark:border-cv-dark/30 mt-auto">
                     <div className="flex flex-col">
