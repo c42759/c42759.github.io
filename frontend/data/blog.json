@@ -46,5 +46,13 @@
     "date": "2026-04-05",
     "excerpt": "Learn how to effectively convert CRLF to LF by executing dos2unix recursively on directories, including handling spaces and multi-processing.",
     "content_file": "2026-04-05-how-to-execute-dos2unix-for-directory-recursively.md"
+  },
+  {
+    "id": 7,
+    "slug": "the-ultimate-budget-starter-phone-for-2026",
+    "title": "The Ultimate Budget Starter Phone for 2026",
+    "date": "2026-04-16",
+    "excerpt": "The Blackview Wave 7C is a budget smartphone that offers a lot of features for its price.",
+    "content_file": "2026-04-16-the-ultimate-budget-starter-phone-for-2026.md"
   }
 ]
