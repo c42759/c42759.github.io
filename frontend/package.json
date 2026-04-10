@@ -10,6 +10,7 @@
     "static": "next build && rm -rf ../docs/ && mv build ../docs && cd .. && ./run_underscore_reference.sh ./docs _next next && ./run_underscore_reference.sh ./docs _not-found not-found"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.19",
     "next": "16.1.7",
     "next-themes": "^0.4.6",
     "react": "19.2.3",
