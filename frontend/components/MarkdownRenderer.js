@@ -29,7 +29,7 @@ export default function MarkdownRenderer({ content }) {
         code({ node, inline, className, children, ...props }) {
           const match = /language-(\w+)/.exec(className || '');
           const highlightTheme = mounted && resolvedTheme === 'light' ? oneLight : oneDark;
-          
+
           return !inline && match ? (
             <SyntaxHighlighter
               style={highlightTheme}

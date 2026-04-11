@@ -9,7 +9,7 @@ export default function GamerLife({ games }) {
 
   // Sort games by title alphabetically
   const sortedGames = [...games].sort((a, b) => a.title.localeCompare(b.title));
-  
+
   const filteredGames = sortedGames.filter((game) => {
     if (searchQuery && !game.title.toLowerCase().includes(searchQuery.toLowerCase())) {
       return false;
@@ -38,9 +38,9 @@ export default function GamerLife({ games }) {
         <div className="flex flex-wrap items-center gap-3">
           {/* Search Input */}
           <div className="relative">
-            <input 
-              type="text" 
-              placeholder="Search games..." 
+            <input
+              type="text"
+              placeholder="Search games..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 text-cv-dark dark:text-white text-sm rounded-lg focus:ring-cv-orange focus:border-cv-orange block w-full sm:w-48 pl-9 p-2 outline-none"
@@ -52,8 +52,8 @@ export default function GamerLife({ games }) {
             </div>
           </div>
 
-          <select 
-            value={filter} 
+          <select
+            value={filter}
             onChange={(e) => setFilter(e.target.value)}
             className="bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 text-cv-dark dark:text-white text-sm rounded-lg focus:ring-cv-orange focus:border-cv-orange block p-2 outline-none"
           >
@@ -97,15 +97,15 @@ export default function GamerLife({ games }) {
               <div key={game.id} className="group relative rounded-2xl overflow-hidden bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cv-orange/10 flex flex-col h-full">
                 {/* Game Cover */}
                 <div className="relative h-48 w-full bg-gray-200 dark:bg-cv-dark/20 overflow-hidden shrink-0">
-                  <Image 
-                    src={game.cover} 
-                    alt={game.title} 
+                  <Image
+                    src={game.cover}
+                    alt={game.title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500 blur-sm brightness-50 group-hover:blur-none group-hover:brightness-100" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1a1c1e] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity"></div>
-                  
+
                   {/* Rating at the top right */}
                   <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-md px-2 py-1 rounded-full flex items-center space-x-1 border border-white/10 z-10">
                     <span className="text-cv-orange text-sm shrink-0">★</span>
@@ -116,7 +116,7 @@ export default function GamerLife({ games }) {
                 {/* Game Content */}
                 <div className="p-5 flex flex-col flex-1 relative z-10 -mt-8 bg-gradient-to-b from-transparent to-white dark:to-[#1a1c1e] pt-8">
                   <h3 className="text-lg font-bold text-cv-dark dark:text-white mt-2 mb-2 leading-tight">{game.title}</h3>
-                  
+
                   <div className="flex flex-wrap items-center gap-2 mb-3">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-cv-orange dark:text-cv-peach bg-cv-orange/10 dark:bg-cv-peach/10 px-2 py-0.5 rounded-full">
                       {game.platform}
@@ -151,7 +151,7 @@ export default function GamerLife({ games }) {
                       </div>
                     </div>
                   )}
-                  
+
                   <div className="flex items-center justify-between text-xs font-medium pt-3 border-t border-cv-dark/10 dark:border-cv-dark/50 mt-auto">
                     <div className="flex flex-col">
                       <span className="dark:text-cv-light/60 text-cv-dark/60">Completion</span>
@@ -168,16 +168,16 @@ export default function GamerLife({ games }) {
               <div key={game.id} className="group relative flex flex-col sm:flex-row rounded-2xl overflow-hidden bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:shadow-xl hover:shadow-cv-orange/10">
                 {/* Game Cover */}
                 <div className="relative h-48 sm:h-auto sm:w-56 sm:shrink-0 bg-gray-200 dark:bg-cv-dark/20 overflow-hidden">
-                  <Image 
-                    src={game.cover} 
-                    alt={game.title} 
+                  <Image
+                    src={game.cover}
+                    alt={game.title}
                     fill
                     sizes="(max-width: 640px) 100vw, 224px"
                     className="object-cover group-hover:scale-105 transition-transform duration-500 blur-sm brightness-50 group-hover:blur-none group-hover:brightness-100" 
                   />
                   <div className="absolute inset-0 bg-gradient-to-r from-[#1a1c1e] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity hidden sm:block"></div>
                   <div className="absolute inset-0 bg-gradient-to-t from-[#1a1c1e] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity sm:hidden"></div>
-                  
+
                   {/* Rating at the top right */}
                   <div className="absolute top-3 right-3 sm:left-3 sm:right-auto bg-black/60 backdrop-blur-md px-2 py-1 rounded-full flex items-center space-x-1 border border-white/10 z-10">
                     <span className="text-cv-orange text-sm shrink-0">★</span>
@@ -188,7 +188,7 @@ export default function GamerLife({ games }) {
                 {/* Game Content */}
                 <div className="p-5 sm:p-6 flex flex-col flex-1 relative z-10 bg-white dark:bg-[#1a1c1e]">
                   <h3 className="text-xl font-bold text-cv-dark dark:text-white mb-2 leading-tight">{game.title}</h3>
-                  
+
                   <div className="flex flex-wrap items-center gap-2 mb-3">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-cv-orange dark:text-cv-peach bg-cv-orange/10 dark:bg-cv-peach/10 px-2 py-0.5 rounded-full">
                       {game.platform}
@@ -227,7 +227,7 @@ export default function GamerLife({ games }) {
                       </div>
                     </div>
                   )}
-                  
+
                   <div className="flex items-center space-x-8 text-xs font-medium pt-4 border-t border-gray-100 dark:border-cv-dark/30 mt-auto">
                     <div className="flex flex-col">
                       <span className="dark:text-cv-light/60 text-cv-dark/60 mb-1">Completion</span>

@@ -15,7 +15,7 @@ export default function Header() {
           />
         </div>
       </div>
-      
+
       <div className="flex flex-col justify-center flex-1 z-10">
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-cv-dark dark:text-white mb-2 font-sans">
           Carlos <span className="text-cv-orange">Quintinha</span>
@@ -23,7 +23,7 @@ export default function Header() {
         <h2 className="text-xl md:text-3xl text-cv-orange dark:text-cv-peach font-medium mb-4">
           Software Architect
         </h2>
-        
+
         <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
           <div className="flex items-center justify-center md:justify-start space-x-4">
             <span className="flex items-center space-x-1 bg-black/5 dark:bg-cv-dark/40 border border-black/10 dark:border-cv-dark/60 rounded-full px-3 py-1 text-sm font-medium text-cv-dark dark:text-cv-light backdrop-blur-sm shadow-sm dark:shadow-none">
@@ -31,7 +31,7 @@ export default function Header() {
               <span>PT / EN</span>
             </span>
           </div>
-          
+
           <div className="flex items-center justify-center space-x-4">
             <SocialLink href="https://github.com/c42759" label="GitHub" icon={GitHubIcon} />
             <SocialLink href="https://gitlab.com/c42759" label="GitLab" icon={GitLabIcon} />

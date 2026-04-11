@@ -16,8 +16,8 @@ export default function Blog({ posts }) {
 
       <div className="flex flex-col space-y-6">
         {[...posts].sort((a, b) => new Date(b.date) - new Date(a.date)).map((post) => (
-          <article 
-            key={post.id} 
+          <article
+            key={post.id}
             className="group block p-6 bg-white dark:bg-[#1a1c1e] rounded-2xl border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 hover:bg-gray-50 dark:hover:bg-cv-dark/20 transition-all duration-300 shadow-sm dark:shadow-none"
           >
             <div className="flex flex-col md:flex-row md:items-baseline md:justify-between mb-3">
@@ -32,11 +32,11 @@ export default function Blog({ posts }) {
                 })}
               </time>
             </div>
-            
+
             <p className="text-gray-700 dark:text-cv-light leading-relaxed mb-4">
               {post.excerpt}
             </p>
-            
+
             <Link href={`/blog/${post.slug}`} className="inline-flex items-center text-sm font-semibold text-cv-orange dark:text-cv-peach hover:text-cv-peach dark:hover:text-cv-orange transition-colors group-hover:translate-x-1 duration-300">
               Read article
               <svg className="ml-1 w-4 h-4" transform="rotate(0)" fill="none" viewBox="0 0 24 24" stroke="currentColor">

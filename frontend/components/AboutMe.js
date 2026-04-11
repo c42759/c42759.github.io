@@ -20,7 +20,7 @@ export default function AboutMe() {
             </div>
             <h2 className="text-2xl font-bold text-cv-dark dark:text-white tracking-tight">About Me</h2>
           </div>
-          
+
           <div className="space-y-4 text-gray-700 dark:text-cv-light leading-relaxed">
             <p className="text-lg">
               Hello, my name is Carlos Santos, and I’m a {age} years old Software Engineer from the picturesque city of Aveiro.
