@@ -26,6 +26,8 @@ Inside the box:
 
 - User Manuals
 
+- Clear silicone smartphone case
+
 **Note:** To keep the price low and the box slim, a power brick is not included. You can use any standard USB-C charger you already have at home!
 
 ![Blackview Wave 7C Phone Pictures](/blog/2026-04-16-the-ultimate-budget-starter-phone-for-2026/pictures.png "Blackview Wave 7C Phone Pictures")
@@ -74,6 +76,8 @@ The Blackview Wave 7C excels because it doesn't try to be something it’s not. 
 - Lightweight and stylish design.
 
 - Modern software with AI features (DokeOS 5.0).
+
+- Pre-applied screen protector.
 
 **Cons:**
 
