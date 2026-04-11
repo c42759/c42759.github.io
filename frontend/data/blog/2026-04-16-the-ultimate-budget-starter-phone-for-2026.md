@@ -56,6 +56,7 @@ The phone comes with 4GB of physical RAM, but Blackview allows you to expand thi
 ### Cameras: Capturing the Moment
 The **32MP Rear Camera** and **13MP Front Camera** are what I’d call "fair." They won't win any photography awards, but in daylight, they produce clear, social-media-ready shots. It’s more than enough for snapping a photo of a grocery list, recording a video of the grandkids, or a quick video call on WhatsApp.
 
+However, there is a noticeable downside. Visually, the smartphone appears to have four cameras: one on the front and three on the back. Sadly, two of the three rear cameras are completely fake, placed there purely for visual appeal. Because the phone's design is heavily inspired by the latest iPhone 17 Pro, I believe the brand added these extra "lenses" so users wouldn't feel left out of current design trends, allowing them to buy a budget device that still looks cool and modern. It's clearly not an attempt to scam buyers, as the box explicitly mentions only two functional cameras—and, of course, there is a Blackview logo on the back, not an Apple one.
 
 ![Blackview Wave 7C Rear and Front Camera](/blog/2026-04-16-the-ultimate-budget-starter-phone-for-2026/rear_n_front_camera.png "Blackview Wave 7C Rear and Front Camera")
 
@@ -86,3 +87,5 @@ The Blackview Wave 7C excels because it doesn't try to be something it’s not. 
 - No charging brick in the box.
 
 - Virtual RAM requires manual setup.
+
+- Two of the three rear cameras are fake (aesthetic only).
