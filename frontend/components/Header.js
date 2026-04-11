@@ -1,12 +1,8 @@
 import Image from "next/image";
-import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Header() {
   return (
     <header className="relative w-full max-w-4xl mx-auto pt-24 pb-12 px-6 flex flex-col md:flex-row items-center md:items-start md:space-x-8 text-center md:text-left gap-6">
-      <div className="absolute top-4 right-6 md:right-0">
-        <ThemeToggle />
-      </div>
       <div className="relative shrink-0">
         <div className="absolute inset-0 bg-cv-orange rounded-full blur-xl opacity-20 animate-pulse"></div>
         <div className="relative w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-cv-dark/50 shadow-2xl backdrop-blur-sm">

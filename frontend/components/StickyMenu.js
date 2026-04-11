@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
+import ThemeToggle from '@/components/ThemeToggle';
 
 const sections = [
   { id: 'home', label: '', icon: true },
@@ -74,6 +75,8 @@ export default function StickyMenu() {
             <span className={section.icon ? "hidden sm:block" : ""}>{section.label}</span>
           </a>
         ))}
+        <div className="w-px h-6 bg-gray-300 dark:bg-cv-dark mx-1"></div>
+        <ThemeToggle />
       </nav>
     </div>
   );
