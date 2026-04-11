@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Carlos Quintinha",
-  description: "Online CV and Portfolio of Carlos Quintinha",
+  description: "The digital home of Carlos Quintinha. Discover my experience in software architecture, read my tech blog, and explore my workspace and gaming interests.",
 };
 
 import { ThemeProvider } from "@/components/ThemeProvider";
