@@ -15,6 +15,7 @@ const nextConfig = {
       },
     ],
   },
+  allowedDevOrigins: ["gamma-nuc.vpn", "localhost"],
 };
 
 export default nextConfig;

@@ -5,10 +5,13 @@ services:
       dockerfile: Dockerfile
     container_name: cv_frontend
     ports:
-      - "3001:3000"
+      - "3001:3001"
     volumes:
       - ./frontend:/app
       - /app/node_modules
       - /app/.next
     environment:
       - NODE_ENV=development
+      - PORT=3001
+      - HOSTNAME=0.0.0.0
+      - WATCHPACK_POLLING=true
