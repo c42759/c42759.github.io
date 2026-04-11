@@ -14,6 +14,16 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Carlos Quintinha",
   description: "The digital home of Carlos Quintinha. Discover my experience in software architecture, read my tech blog, and explore my workspace and gaming interests.",
+  openGraph: {
+    images: [
+      {
+        url: "/avatar_2.jpg",
+        width: 800,
+        height: 800,
+        alt: "Carlos Quintinha Avatar",
+      },
+    ],
+  },
 };
 
 import { ThemeProvider } from "@/components/ThemeProvider";
