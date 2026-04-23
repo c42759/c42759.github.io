@@ -54,5 +54,13 @@
     "date": "2026-04-16",
     "excerpt": "The Blackview Wave 7C is a budget smartphone that offers a lot of features for its price.",
     "content_file": "2026-04-16-the-ultimate-budget-starter-phone-for-2026.md"
+  },
+  {
+    "id": 8,
+    "slug": "how-to-create-a-symlink",
+    "title": "How to create a Symlink",
+    "date": "2026-04-23",
+    "excerpt": "An explanation of what a symlink is, its daily developer use cases, and how to create one using Shell, Python, and PHP.",
+    "content_file": "2026-04-23-how-to-create-a-symlink.md"
   }
 ]
