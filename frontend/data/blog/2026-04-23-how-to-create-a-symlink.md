@@ -1,5 +1,3 @@
-# How to create a Symlink
-
 A symbolic link, commonly known as a **symlink**, is a file that points to another file or directory. Think of it as an advanced shortcut. Unlike a hard link, which points directly to the underlying data on the disk, a symlink points to a file path. If the original file is moved or deleted, the symlink becomes "broken" or "dangling," as it still points to the old path where the file no longer exists.
 
 ## Daily Use Cases for Developers
