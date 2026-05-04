@@ -15,7 +15,7 @@
   { "card": "Desktop", "category": "RAM", "name": "Ballistix RGB 2x32GB DDR4 3200Mhz CL16" },
   { "card": "Desktop", "category": "SSD", "name": "Western Digital Black SN750 1TB" },
   { "card": "Desktop", "category": "HDD", "name": "Seagate IronWolf 8TB 7200RPM 256MB SATA III" },
-  { "card": "Desktop", "category": "GPU", "name": "ASUS Strix GTX 960 4GB" },
+  { "card": "Desktop", "category": "GPU", "name": "ASUS Dual GeForce RTX™ 4060 OC 8GB" },
   { "card": "Desktop", "category": "PSU", "name": "Fractal Design Ion SFX-L 650W" },
   { "card": "Laptop", "category": "Model", "name": "Chuwi CoreBook X" },
   { "card": "Laptop", "category": "OS", "name": "Fedora Linux 43" },
