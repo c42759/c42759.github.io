@@ -1,0 +1,38 @@
+[
+  {
+    "title": "bingo",
+    "description": "Every christmas we play bingo, this allows to have all the numbers shown in a huge TV, instead of screaming the numbers. Along with a few cool features like Light and Dark mode along with ring when a number is selected, and auto draw numbers and leaderboard.",
+    "url": "https://github.com/c42759/bingo",
+    "icon": "game"
+  },
+  {
+    "title": "battleship",
+    "description": "Me and my wife like to play battleship togetter, we bought a kids toy to play it, but was not very good, so why not build a digital one for anyone who wanna play it.",
+    "url": "https://github.com/c42759/battleship",
+    "icon": "game"
+  },
+  {
+    "title": "split-pro",
+    "description": "Open source alternative to Splitwise. This is not a project of my own. I support it to bring European Portuguese to the platform.",
+    "url": "https://github.com/c42759/split-pro",
+    "icon": "globe"
+  },
+  {
+    "title": "ckeyboard",
+    "description": "I worked in a company where I had the need to have a js custom keyboard layout for any situation, if the layout was made of Emojis.",
+    "url": "https://github.com/c42759/ckeyboard",
+    "icon": "keyboard"
+  },
+  {
+    "title": "pycpanel",
+    "description": "I develop this in a time where update a DNS record with my home network address was a mandatory thing. Today we have more technology like Reverse Proxies accessible to everyone.",
+    "url": "https://github.com/c42759/pycpanel",
+    "icon": "python"
+  },
+  {
+    "title": "RPI4-Media-Player",
+    "description": "Use your raspberry pi as a loop media player for some presentations.",
+    "url": "https://github.com/c42759/RPI4-Media-Player",
+    "icon": "terminal"
+  }
+]

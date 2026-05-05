@@ -22,8 +22,8 @@ export default function StickyMenu() {
         {sections.map((section) => {
           // If the pathname starts with the section's href, it is active
           // Note: for home ('/'), it should only be active if pathname is exactly '/'
-          const isActive = section.href === '/' 
-            ? pathname === '/' 
+          const isActive = section.href === '/'
+            ? pathname === '/'
             : pathname.startsWith(section.href);
 
           return (
