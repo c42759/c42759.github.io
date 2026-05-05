@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: "/avatar_2.jpg",
+        url: "/avatar.jpg",
         width: 800,
         height: 800,
         alt: "Carlos Quintinha Avatar",

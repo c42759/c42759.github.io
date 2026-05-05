@@ -7,7 +7,7 @@ export default function Header() {
         <div className="absolute inset-0 bg-cv-orange rounded-full blur-xl opacity-20 animate-pulse"></div>
         <div className="relative w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-cv-dark/50 shadow-2xl backdrop-blur-sm">
           <Image
-            src="/avatar_2.jpg"
+            src="/avatar.jpg"
             alt="Carlos Quintinha avatar"
             fill
             className="object-cover"
