@@ -1,37 +1,37 @@
 [
   {
     "title": "bingo",
-    "description": "Every christmas we play bingo, this allows to have all the numbers shown in a huge TV, instead of screaming the numbers. Along with a few cool features like Light and Dark mode along with ring when a number is selected, and auto draw numbers and leaderboard.",
+    "description": "A digital Bingo app built to replace screaming numbers at family Christmas gatherings! Features a large-screen TV mode, light/dark themes, sound effects, auto-draw functionality, and a built-in leaderboard.",
     "url": "https://github.com/c42759/bingo",
     "icon": "game"
   },
   {
     "title": "battleship",
-    "description": "Me and my wife like to play battleship togetter, we bought a kids toy to play it, but was not very good, so why not build a digital one for anyone who wanna play it.",
+    "description": "A passion project born out of disappointment with a physical kids' toy. I built this digital version of Battleship so my wife and I—and anyone else—could enjoy a seamless, high-quality gaming experience.",
     "url": "https://github.com/c42759/battleship",
     "icon": "game"
   },
   {
     "title": "split-pro",
-    "description": "Open source alternative to Splitwise. This is not a project of my own. I support it to bring European Portuguese to the platform.",
+    "description": "An excellent open-source alternative to Splitwise. While not my original project, I actively contribute to it by providing full European Portuguese localization support.",
     "url": "https://github.com/c42759/split-pro",
     "icon": "globe"
   },
   {
     "title": "ckeyboard",
-    "description": "I worked in a company where I had the need to have a js custom keyboard layout for any situation, if the layout was made of Emojis.",
+    "description": "A highly customizable JavaScript on-screen keyboard. Originally built to solve a workplace need for specialized custom layouts, such as a full Emoji keyboard.",
     "url": "https://github.com/c42759/ckeyboard",
     "icon": "keyboard"
   },
   {
     "title": "pycpanel",
-    "description": "I develop this in a time where update a DNS record with my home network address was a mandatory thing. Today we have more technology like Reverse Proxies accessible to everyone.",
+    "description": "A Python module developed to automate DNS record updates via the cPanel API. Built before modern reverse proxies became widely accessible to manage home network addresses dynamically.",
     "url": "https://github.com/c42759/pycpanel",
     "icon": "python"
   },
   {
     "title": "RPI4-Media-Player",
-    "description": "Use your raspberry pi as a loop media player for some presentations.",
+    "description": "A lightweight utility that transforms your Raspberry Pi 4 into a dedicated, seamless loop media player for digital signage and presentations.",
     "url": "https://github.com/c42759/RPI4-Media-Player",
     "icon": "terminal"
   }
