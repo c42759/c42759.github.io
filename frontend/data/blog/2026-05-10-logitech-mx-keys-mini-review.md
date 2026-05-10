@@ -13,6 +13,7 @@ Despite its small footprint, it offers smart backlighting, a remarkably stable, 
 
 ![Logitech MX Keys Mini](/blog/2026-05-10-logitech-mx-keys-mini-review/mx-mini-keys.jpg "Logitech MX Keys Mini")
 
+
 ### Key Features & Points
 
 - **Layout:** US International (ISO) — Includes the L-shaped, tall Enter key and acts as a "dead key" system for accents (e.g., `'` + `e` = `é`).
@@ -23,7 +24,8 @@ Despite its small footprint, it offers smart backlighting, a remarkably stable, 
 - **Battery Life:** USB-C rechargeable. Logitech claims it lasts up to 10 days with the backlight on, or up to several months with backlighting off. **In my case**, I usually get around **2 months of battery life**, switching actively between 3 connected devices all day.
 - **Customization:** Fully functional with the Logitech Options+ software, which allows you to remap the F-keys (such as Dictation, Emoji, and Mute).
 
-![MX Keys Mini Profile and Keys](/blog/2026-05-10-logitech-mx-keys-mini-review/profile_photo.jpg "MX Keys Mini Profile and Keys")
+![MX Keys Mini Profile and Keys](/blog/2026-05-10-logitech-mx-keys-mini-review/profile-photo.jpg "MX Keys Mini Profile and Keys")
+(Image credit: Laptop Mag)
 
 ## Video Review
 
