@@ -1,5 +1,3 @@
-# Logitech MX Keys Mini: 5 Years Later (Review)
-
 After using the Logitech MX Keys Mini for over 5 years, it has become an absolute staple on my desk. Here is my comprehensive review of this minimal yet powerful keyboard.
 
 ![Logitech MX Keys Mini](/blog/2026-05-10-logitech-mx-keys-mini-review/main-photo.jpg "Logitech MX Keys Mini")
