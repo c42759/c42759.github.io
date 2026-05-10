@@ -62,5 +62,13 @@
     "date": "2026-04-23",
     "excerpt": "An explanation of what a symlink is, its daily developer use cases, and how to create one using Shell, Python, and PHP.",
     "content_file": "2026-04-23-how-to-create-a-symlink.md"
+  },
+  {
+    "id": 9,
+    "slug": "logitech-mx-keys-mini-review",
+    "title": "Logitech MX Keys Mini: 5 Years Later",
+    "date": "2026-05-10",
+    "excerpt": "A comprehensive review of the Logitech MX Keys Mini after 5 years of daily use, including its features, smart backlighting, and battery life.",
+    "content_file": "2026-05-10-logitech-mx-keys-mini-review.md"
   }
 ]
