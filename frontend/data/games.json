@@ -474,18 +474,18 @@
     "description": "Hustle by day, risk it all by night in Palm City.",
     "completion": 0,
     "evaluation": "-",
-    "hoursPlayed": "-",
+    "hoursPlayed": "46.4",
     "releaseDate": "2019",
     "platform": "Multi-platform",
     "style": "Racing",
     "objectives": [
       {
         "description": "Win the Showdown",
-        "completed": false
+        "completed": true
       },
       {
         "description": "Take down the corrupt police task force",
-        "completed": false
+        "completed": true
       },
       {
         "description": "Reach Reputation Level 50",
