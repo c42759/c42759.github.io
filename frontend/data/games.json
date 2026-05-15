@@ -472,9 +472,9 @@
     "title": "Need For Speed Heat",
     "cover": "/games/need_for_speed_heat.jpg",
     "description": "Hustle by day, risk it all by night in Palm City.",
-    "completion": 0,
-    "evaluation": "-",
-    "hoursPlayed": "46.4",
+    "completion": 100,
+    "evaluation": "4",
+    "hoursPlayed": "46.5",
     "releaseDate": "2019",
     "platform": "Multi-platform",
     "style": "Racing",
@@ -489,7 +489,7 @@
       },
       {
         "description": "Reach Reputation Level 50",
-        "completed": false
+        "completed": true
       }
     ]
   },
