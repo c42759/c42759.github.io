@@ -28,7 +28,7 @@ export default async function BlogPost({ params }) {
   return (
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-cv-orange selection:text-white pb-20">
       <main className="flex flex-col items-center pt-12 px-6">
-        <Link href="/" className="self-start md:ml-auto md:mr-auto md:w-full md:max-w-4xl text-cv-orange flex items-center mb-10 hover:underline">
+        <Link href="/blog/" className="self-start md:ml-auto md:mr-auto md:w-full md:max-w-4xl text-cv-orange flex items-center mb-10 hover:underline">
           <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
