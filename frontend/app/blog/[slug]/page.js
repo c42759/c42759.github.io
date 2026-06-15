@@ -56,10 +56,6 @@ export default async function BlogPost({ params }) {
           </div>
         </article>
       </main>
-      
-      <footer className="text-center text-cv-light/50 text-sm mt-12 py-6 border-t border-cv-dark/30 max-w-4xl mx-auto">
-        &copy; {new Date().getFullYear()} Carlos Quintinha. Crafted with Next.js and Tailwind CSS.
-      </footer>
     </div>
   );
 }
