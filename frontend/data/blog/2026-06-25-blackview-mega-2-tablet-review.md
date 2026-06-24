@@ -6,6 +6,8 @@ When reviewing a device like this, I always ground my opinion in two realities: 
 
 Here is my honest, real-world review.
 
+---
+
 ### Technical Specifications
 
 Before diving into the daily experience, here is a quick look at what's under the hood:
@@ -18,6 +20,8 @@ Before diving into the daily experience, here is a quick look at what's under th
 - **Battery:** 9000mAh
 - **Cameras:** 16MP Rear / 8MP Front
 - **Connectivity:** Wi-Fi, Bluetooth, SIM slot with 4G LTE support
+
+---
 
 ### Design, Build & What's in the Box
 
@@ -37,6 +41,8 @@ What really stands out, however, is what Blackview includes in the package. It's
 
 Getting all these accessories included at this price point adds a massive amount of value, especially for anyone looking to jump straight into light productivity.
 
+---
+
 ### Display & Media Consumption
 
 The centerpiece of the Mega 2 is its **12-inch display**. Having a screen this large at this price is a huge plus for both media consumption and productivity. 
@@ -50,6 +56,8 @@ Crucially, the tablet supports **Widevine L1**, meaning you can stream Netflix, 
 
 On the audio front, the tablet features dual speakers. The sound is fair - not the best, but certainly not the worst. It's fine for indoor use, but don't expect it to overpower outdoor noise. Fortunately, Blackview included a 3.5mm headphone jack, so plugging in a decent pair of headphones will instantly upgrade your media experience.
 
+---
+
 ### Performance, Storage & "PC Mode"
 
 Under the hood, the Mega 2 is powered by the **Unisoc T606 processor** alongside **8GB of RAM** and **128GB of storage**. 
@@ -62,17 +70,23 @@ The standout feature of this tablet is its software experience. It runs **Androi
 
 ![PC Mode Interface](/blog/2026-06-25-blackview-mega-2-tablet-review/pc-mode.png "PC Mode Interface")
 
+---
+
 ### Cameras & Connectivity
 
 Tablet cameras are rarely anything to write home about, and the Mega 2 is no exception. Both the front and rear cameras are just "fair". They are perfectly adequate for scanning documents or joining a video call. However, I highly recommend turning off any video filters during calls, as the SoC isn't quite powerful enough to process them smoothly and it caused my video to freeze up.
 
 Connectivity-wise, the tablet supports a SIM card for LTE, though I mostly stuck to Wi-Fi and Bluetooth. Both performed flawlessly - the tablet caught the wireless keyboard and mouse instantly, and the connection remained stable even when working outdoors.
 
+---
+
 ### Battery Life & Charging
 
 The tablet comes with an 18W charger that tops it up from 0 to 100% in about 2 to 3 hours. It's a decent charging speed for the price.
 
 My only minor gripe is the length of the included USB-C cable. Because the Mega 2 doubles so well as a laptop replacement, a longer cable (like 2 meters) would be much more comfortable if you need to use it while plugged into a wall outlet. It's not a dealbreaker by any means, as I easily swapped it for a longer USB-C cable I already had lying around.
+
+---
 
 ### The Verdict
 
@@ -91,6 +105,8 @@ The Blackview Mega 2 isn't trying to compete with premium, high-end tablets, and
 If you need an affordable, large-screen device for media consumption, studying, or light productivity tasks, the Blackview Mega 2 is a fantastic package. However, if your focus is on gaming or heavy computing, you'll need to invest in a more expensive device.
 
 Overall, considering the price and everything included in the box, the Blackview Mega 2 is a fantastic value and a very practical daily driver.
+
+---
 
 ### Summary Scorecard
 

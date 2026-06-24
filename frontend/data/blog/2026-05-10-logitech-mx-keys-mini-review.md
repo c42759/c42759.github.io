@@ -3,6 +3,8 @@ After using the Logitech MX Keys Mini for over 5 years, it has become an absolut
 ![Logitech MX Keys Mini](/blog/2026-05-10-logitech-mx-keys-mini-review/main-photo.jpg "Logitech MX Keys Mini")
 (Image credit: © Laptop Mag)
 
+---
+
 ## About My Unit
 
 My specific unit is the **Logitech MX Keys Mini US International (ISO layout)**. It features a compact 75% design with an L-shaped Enter key. This layout specifically caters to users like me who need to type accents and special characters easily.
@@ -11,6 +13,7 @@ Despite its small footprint, it offers smart backlighting, a remarkably stable, 
 
 ![Logitech MX Keys Mini](/blog/2026-05-10-logitech-mx-keys-mini-review/mx-mini-keys.jpg "Logitech MX Keys Mini")
 
+---
 
 ### Key Features & Points
 
@@ -25,12 +28,28 @@ Despite its small footprint, it offers smart backlighting, a remarkably stable, 
 ![MX Keys Mini Profile and Keys](/blog/2026-05-10-logitech-mx-keys-mini-review/profile-photo.jpg "MX Keys Mini Profile and Keys")
 (Image credit: Laptop Mag)
 
+---
+
 ## Video Review
 
 For a more visual breakdown of the keyboard's features and a typing sound test, check out this excellent video review below:
 
 [![Video Review of Logitech MX Keys Mini](https://img.youtube.com/vi/m_DWTVgTZLs/maxresdefault.jpg)](https://www.youtube.com/watch?v=m_DWTVgTZLs)
 
+---
+
 ## The Verdict
 
 The MX Keys Mini is an excellent tool for anyone who types heavily, switches between multiple machines (like a work laptop, personal PC, and tablet), and values a clean, minimalist desk setup. After half a decade of use, it still holds up as one of the best wireless keyboards on the market.
+
+---
+
+### Summary Scorecard
+
+| Feature | Real-World Rating | Notes |
+| :--- | :--- | :--- |
+| **Design & Build** | ⭐⭐⭐⭐⭐ | Sturdy metal frame with a space-saving 75% minimalist layout. |
+| **Typing Experience** | ⭐⭐⭐⭐⭐ | Low-profile, remarkably stable, quiet, and tactile. |
+| **Battery Life** | ⭐⭐⭐⭐☆ | Solid 2 months of real-world use with active multi-device switching. |
+| **Connectivity & Features** | ⭐⭐⭐⭐⭐ | Seamless multi-device pairing (up to 3) and smart proximity backlighting. |
+| **Value & Longevity** | ⭐⭐⭐⭐⭐ | An excellent, durable investment that still holds up after 5 years of heavy use. |

@@ -2,7 +2,10 @@ In a world where flagship phones cost as much as a used car, there’s a growing
 
 If you aren't looking to play the latest high-end games and just want a reliable companion for daily communication, this might be the most practical purchase you make this year.
 
+---
+
 ### Who is this phone for?
+
 The Wave 7C is built for simplicity. It’s a perfect fit for:
 
 - **Non-tech-savvy users** who need a straightforward interface.
@@ -13,7 +16,10 @@ The Wave 7C is built for simplicity. It’s a perfect fit for:
 
 - **Seniors or Students** looking for a first smartphone that doesn't break the bank.
 
+---
+
 ### Design & What’s in the Box
+
 The Wave 7C is surprisingly lightweight and comfortable to hold, featuring "R" sculpted corners that feel premium despite the budget price tag. It comes in three vibrant colors: **Vitality Orange**, **Phantom Black**, and **Arctic Blue**.
 
 Inside the box:
@@ -32,7 +38,10 @@ Inside the box:
 
 ![Blackview Wave 7C Phone Pictures](/blog/2026-04-16-the-ultimate-budget-starter-phone-for-2026/pictures.png "Blackview Wave 7C Phone Pictures")
 
+---
+
 ### Performance: Expectations vs. Reality
+
 Let's talk numbers. The Wave 7C is powered by the **Unisoc Tiger T310**. It’s perfectly capable of handling your chat apps and social feeds, but it is **not** a gaming machine. If you try to run Genshin Impact or heavy 3D titles, you will notice significant lag.
 
 **Benchmark Results:**
@@ -53,19 +62,28 @@ The phone comes with 4GB of physical RAM, but Blackview allows you to expand thi
 
 **The Catch:** Non-technical users might never find this setting in the menus. If you're buying this for someone else, I recommend diving into the settings and enabling the maximum expansion for them—it makes multitasking feel much smoother!
 
+---
+
 ### Cameras: Capturing the Moment
+
 The **32MP Rear Camera** and **13MP Front Camera** are what I’d call "fair." They won't win any photography awards, but in daylight, they produce clear, social-media-ready shots. It’s more than enough for snapping a photo of a grocery list, recording a video of the grandkids, or a quick video call on WhatsApp.
 
 However, there is a noticeable downside. Visually, the smartphone appears to have four cameras: one on the front and three on the back. Sadly, two of the three rear cameras are completely fake, placed there purely for visual appeal. Because the phone's design is heavily inspired by the latest iPhone 17 Pro, I believe the brand added these extra "lenses" so users wouldn't feel left out of current design trends, allowing them to buy a budget device that still looks cool and modern. It's clearly not an attempt to scam buyers, as the box explicitly mentions only two functional cameras—and, of course, there is a Blackview logo on the back, not an Apple one.
 
 ![Blackview Wave 7C Rear and Front Camera](/blog/2026-04-16-the-ultimate-budget-starter-phone-for-2026/rear_n_front_camera.png "Blackview Wave 7C Rear and Front Camera")
 
+---
+
 ### The "Bloatware" Compromise
+
 Out of the box, you will notice several pre-installed sponsored apps and games. While "bloatware" is often seen as a negative, it represents a very reasonable compromise here. By including these sponsored applications, the manufacturer can subsidize the final cost of the device, keeping the phone affordable and accessible for everyone.
 
 The good news is that you aren't stuck with them. I tested it, and you can easily remove all of these unwanted apps: just tap and hold on the app icon, then select "Uninstall." It takes only a few minutes during your initial setup to clean your home screen exactly to your liking.
 
+---
+
 ### The Verdict
+
 The Blackview Wave 7C excels because it doesn't try to be something it’s not. It’s an affordable, lightweight device running Android 16 that covers all the basics with ease.
 
 **Pros:**
@@ -89,3 +107,15 @@ The Blackview Wave 7C excels because it doesn't try to be something it’s not. 
 - Virtual RAM requires manual setup.
 
 - Two of the three rear cameras are fake (aesthetic only).
+
+---
+
+### Summary Scorecard
+
+| Feature | Real-World Rating | Notes |
+| :--- | :--- | :--- |
+| **Design & Display** | ⭐⭐⭐⭐☆ | Lightweight and stylish design with a surprisingly premium feel. |
+| **Daily Performance** | ⭐⭐☆☆☆ | Perfect for social media and chat apps, but not suited for gaming. |
+| **Battery Life** | ⭐⭐⭐⭐⭐ | Great battery life with a large 5000mAh battery. |
+| **Camera** | ⭐☆☆☆☆ | Produces fair daylight shots; note that two rear cameras are just for aesthetics. |
+| **Value for Money** | ⭐⭐⭐⭐☆ | Incredible value under €100, even without an included power brick. |
