@@ -13,6 +13,7 @@ export default function LatestPosts({ posts }) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {[...posts]
+          .filter((post) => new Date(post.date) <= new Date())
           .sort((a, b) => new Date(b.date) - new Date(a.date))
           .slice(0, 4)
           .map((post) => (

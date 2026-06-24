@@ -15,7 +15,10 @@ export default function Blog({ posts }) {
       </div>
 
       <div className="flex flex-col space-y-6">
-        {[...posts].sort((a, b) => new Date(b.date) - new Date(a.date)).map((post) => (
+        {[...posts]
+          .filter((post) => new Date(post.date) <= new Date())
+          .sort((a, b) => new Date(b.date) - new Date(a.date))
+          .map((post) => (
           <article
             key={post.id}
             className="group block p-6 bg-white dark:bg-[#1a1c1e] rounded-2xl border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 hover:bg-gray-50 dark:hover:bg-cv-dark/20 transition-all duration-300 shadow-sm dark:shadow-none"
