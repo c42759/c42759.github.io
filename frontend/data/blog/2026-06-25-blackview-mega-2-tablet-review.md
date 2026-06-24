@@ -91,3 +91,13 @@ The Blackview Mega 2 isn't trying to compete with premium, high-end tablets, and
 If you need an affordable, large-screen device for media consumption, studying, or light productivity tasks, the Blackview Mega 2 is a fantastic package. However, if your focus is on gaming or heavy computing, you'll need to invest in a more expensive device.
 
 Overall, considering the price and everything included in the box, the Blackview Mega 2 is a fantastic value and a very practical daily driver.
+
+### Summary Scorecard
+
+| Feature | Real-World Rating | Notes |
+| :--- | :--- | :--- |
+| **Design & Display** | ⭐⭐⭐⭐☆ | Robust metal build and fantastic 12-inch screen for media. |
+| **Daily Performance** | ⭐⭐⭐⭐☆ | Handles everyday tasks surprisingly well; PC Mode is a great feature. |
+| **Battery Life** | ⭐⭐⭐⭐☆ | Large 9000mAh battery with decent 2-3 hour charging time. |
+| **Camera** | ⭐⭐⭐☆☆ | Adequate for scanning documents and video calls. |
+| **Value for Money** | ⭐⭐⭐⭐⭐ | Unbeatable value considering the price and included accessories. |
