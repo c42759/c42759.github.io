@@ -32,9 +32,9 @@ export default async function BlogPost({ params }) {
           <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
-          Back to CV
+          Back to Blog
         </Link>
-        
+
         <article className="w-full max-w-4xl mx-auto bg-white dark:bg-[#1a1c1e] p-8 md:p-12 rounded-3xl shadow-sm border border-gray-200 dark:border-cv-dark/30">
           <header className="mb-8">
             <h1 className="text-3xl md:text-5xl font-bold text-cv-dark dark:text-white mb-4 tracking-tight">

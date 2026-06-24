@@ -1,7 +1,9 @@
 import Header from '@/components/Header';
 import AboutMe from '@/components/AboutMe';
 import Repositories from '@/components/Repositories';
+import LatestPosts from '@/components/LatestPosts';
 import reposData from '@/data/repositories.json';
+import postsData from '@/data/blog';
 
 export default function Home() {
   return (
@@ -14,6 +16,12 @@ export default function Home() {
       <AboutMe />
 
       <div className="w-full h-px max-w-4xl mx-auto bg-gradient-to-r from-transparent via-cv-dark/50 to-transparent my-4"></div>
+
+      {/* Latest Posts */}
+      <LatestPosts posts={postsData} />
+
+      <div className="w-full h-px max-w-4xl mx-auto bg-gradient-to-r from-transparent via-cv-dark/50 to-transparent my-4"></div>
+
       <Repositories repos={reposData} />
     </>
   );
