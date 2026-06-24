@@ -22,7 +22,7 @@ export default function Blog({ posts }) {
           >
             <div className="flex flex-col md:flex-row md:items-baseline md:justify-between mb-3">
               <h3 className="text-xl font-bold text-cv-dark dark:text-white group-hover:text-cv-orange transition-colors">
-                {post.title}
+                <Link href={`/blog/${post.slug}`}>{post.title}</Link>
               </h3>
               <time className="text-xs font-medium text-gray-500 dark:text-cv-light/60 shrink-0 mt-1 md:mt-0">
                 {new Date(post.date).toLocaleDateString('en-US', {
