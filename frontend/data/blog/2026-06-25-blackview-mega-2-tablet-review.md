@@ -8,7 +8,7 @@ Here is my honest, real-world review.
 
 ---
 
-### Technical Specifications
+## Technical Specifications
 
 Before diving into the daily experience, here is a quick look at what's under the hood:
 
@@ -23,7 +23,7 @@ Before diving into the daily experience, here is a quick look at what's under th
 
 ---
 
-### Design, Build & What's in the Box
+## Design, Build & What's in the Box
 
 Right out of the box, the Mega 2 surprised me with a robust, metal build that feels remarkably solid in the hand. I have the dark grey model (it also comes in blue), and it strikes a good balance - it’s not too heavy, but it definitely doesn't feel cheap or hollow.
 
@@ -43,7 +43,7 @@ Getting all these accessories included at this price point adds a massive amount
 
 ---
 
-### Display & Media Consumption
+## Display & Media Consumption
 
 The centerpiece of the Mega 2 is its **12-inch display**. Having a screen this large at this price is a huge plus for both media consumption and productivity. 
 
@@ -58,7 +58,7 @@ On the audio front, the tablet features dual speakers. The sound is fair - not t
 
 ---
 
-### Performance, Storage & "PC Mode"
+## Performance, Storage & "PC Mode"
 
 Under the hood, the Mega 2 is powered by the **Unisoc T606 processor** alongside **8GB of RAM** and **128GB of storage**. 
 
@@ -72,7 +72,7 @@ The standout feature of this tablet is its software experience. It runs **Androi
 
 ---
 
-### Cameras & Connectivity
+## Cameras & Connectivity
 
 Tablet cameras are rarely anything to write home about, and the Mega 2 is no exception. Both the front and rear cameras are just "fair". They are perfectly adequate for scanning documents or joining a video call. However, I highly recommend turning off any video filters during calls, as the SoC isn't quite powerful enough to process them smoothly and it caused my video to freeze up.
 
@@ -80,7 +80,7 @@ Connectivity-wise, the tablet supports a SIM card for LTE, though I mostly stuck
 
 ---
 
-### Battery Life & Charging
+## Battery Life & Charging
 
 The tablet comes with an 18W charger that tops it up from 0 to 100% in about 2 to 3 hours. It's a decent charging speed for the price.
 
@@ -88,7 +88,7 @@ My only minor gripe is the length of the included USB-C cable. Because the Mega 
 
 ---
 
-### The Verdict
+## The Verdict
 
 The Blackview Mega 2 isn't trying to compete with premium, high-end tablets, and that's okay. It knows exactly what it is: an accessible, highly capable budget device.
 
@@ -108,7 +108,7 @@ Overall, considering the price and everything included in the box, the Blackview
 
 ---
 
-### Summary Scorecard
+## Summary Scorecard
 
 | Feature | Real-World Rating | Notes |
 | :--- | :--- | :--- |

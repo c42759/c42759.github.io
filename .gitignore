@@ -12,3 +12,6 @@ rabbitmq/data/*
 _.stignore
 .stignore
 .stversions/
+
+.agents
+.agents/
