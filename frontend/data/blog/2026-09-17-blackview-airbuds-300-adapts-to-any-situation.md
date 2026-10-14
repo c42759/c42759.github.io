@@ -2,6 +2,7 @@ Finding earbuds that adapt effortlessly between intense workouts, long work sess
 
 I tested the **Blackview AirBuds 300** across daily routines, gym sessions, and extended travel. Here is my honest, real-world review.
 
+![Blackview Airbuds 300 Charging Case](/blog/2026-09-17-blackview-airbuds-300-adapts-to-any-situation/case.png "Blackview Airbuds 300 Charging Case")
 
 ## Ergonomics & Fit: Built to Stay Put
 
@@ -10,6 +11,8 @@ My continuous usage limit sits around **4 hours**. Beyond that mark, contact poi
 During fitness exercises, stability shines. The earbuds lock into place and never slip loose. The ear-hugging shape eliminates fear of losing buds during rapid motions or heavy training.
 
 Unlike bulky in-ear designs that constantly tempt readjustment, the AirBuds 300 stay lightweight on the ear. Easy to leave on without fiddling.
+
+![Blackview Airbuds 300 Box](/blog/2026-09-17-blackview-airbuds-300-adapts-to-any-situation/box.png "Blackview Airbuds 300 Box")
 
 
 ## Sound Quality & The "Conversation Test"
