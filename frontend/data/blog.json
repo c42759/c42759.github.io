@@ -102,5 +102,13 @@
     "date": "2026-09-17",
     "excerpt": "My hands-on user review and impressions of the budget-friendly Blackview AirBuds 300.",
     "content_file": "2026-09-17-blackview-airbuds-300-adapts-to-any-situation.md"
+  },
+  {
+    "id": 14,
+    "slug": "25-essential-linux-commands",
+    "title": "25 Essential Linux Commands Every Developer Should Know",
+    "date": "2026-10-14",
+    "excerpt": "A practical guide to 25 essential Linux commands for system administration, networking, performance monitoring, and automation.",
+    "content_file": "2026-10-14-25-essential-linux-commands.md"
   }
 ]
