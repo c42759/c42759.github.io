@@ -1,6 +1,6 @@
 Whether you are troubleshooting a failing microservice, inspecting dropped packets, or automating remote backups, modern Linux administration leans heavily on a core set of command-line tools.
 
-Here is a practical breakdown of 25 essential Linux commands, categorized by workflow, with practical flags and real-world examples.
+Here is a practical breakdown of 31 essential Linux commands, categorized by workflow, with practical flags and real-world examples.
 
 ---
 
@@ -21,6 +21,12 @@ sudo systemctl enable --now docker
 Query and inspect binary logs collected by `systemd-journald`.
 
 ```bash
+# Jump to end with catalog explanations (essential for diagnosing service failures)
+journalctl -xe
+
+# Inspect failed unit with full context and explanations
+journalctl -xeu docker.service
+
 # Follow logs for specific unit in real time (last 100 entries)
 journalctl -u nginx.service -n 100 -f
 
@@ -106,11 +112,39 @@ df -hi
 Estimate file and folder space usage recursively.
 
 ```bash
+# List human-readable sizes of immediate home items, sorted ascending by size
+du -sh ~/* | sort -h
+
 # Find 10 largest subdirectories inside /var/log
 sudo du -h --max-depth=1 /var/log | sort -hr | head -n 10
 
 # Total summarized size of single directory
 du -sh /var/lib/docker
+```
+
+### `ncdu`
+NCurses disk usage analyzer. Provides a fast, interactive terminal browser to navigate disk consumption by directory.
+
+```bash
+# Interactively explore home directory disk consumption
+ncdu ~
+
+# Scan root filesystem while excluding remote mounts and virtual filesystems
+sudo ncdu -x /
+```
+
+### `find`
+Search for files and directories across a filesystem tree based on name, size, type, or modification time.
+
+```bash
+# Search current directory recursively for matching filename
+find . -name "filename"
+
+# Case-insensitive search for config files modified in the last 24 hours
+find /etc -iname "*.conf" -mtime -1
+
+# Find files larger than 100MB and list their human-readable sizes
+find /var/log -type f -size +100M -exec ls -lh {} +
 ```
 
 ### `lsblk`
@@ -170,6 +204,36 @@ vmstat -t 2 5
 
 # Display memory stats in megabytes
 vmstat -S M
+```
+
+### `inxi`
+Full-featured CLI system information tool. Dumps detailed hardware specs, kernel versions, GPU drivers, audio, and networking details with sensitive data masked.
+
+```bash
+# Display comprehensive system summary with extra detail and privacy filtering
+inxi -Fxxxz
+```
+
+### `sensors`
+Read hardware monitoring chips (`lm-sensors`) for real-time CPU core temperatures, fan RPMs, and motherboard voltages.
+
+```bash
+# Query active hardware sensors and temperatures
+sensors
+
+# Watch temperature sensors update continuously every 2 seconds
+watch -n 2 sensors
+```
+
+### `htop` and `btop`
+Interactive process managers and resource dashboards offering visual meters, tree views, mouse support, and detailed container/GPU tracking.
+
+```bash
+# Launch interactive process viewer with per-core CPU and memory meters
+htop
+
+# Launch modern terminal resource dashboard (CPU, memory, disks, network, processes)
+btop
 ```
 
 ### `lsof`
@@ -290,6 +354,20 @@ scp -P 2222 ./nginx.conf admin@app.example.com:/etc/nginx/nginx.conf
 scp -r admin@app.example.com:/var/log/app/ ./local_logs/
 ```
 
+### `wget`
+Non-interactive network downloader supporting HTTP, HTTPS, and FTP protocols, with resume capability and recursive downloading.
+
+```bash
+# Download a file from a URL to the current directory
+wget URL
+
+# Download remote file with custom output filename and resume support
+wget -c -O package.tar.gz https://example.com/package.tar.gz
+
+# Download in the background and log output to file
+wget -b -o wget.log https://example.com/largefile.iso
+```
+
 ---
 
 ## 7. Security & Firewall
@@ -319,8 +397,8 @@ sudo ufw status numbered
 | :--- | :--- | :--- |
 | **Services & Logs** | `systemctl`, `journalctl`, `dmesg` | Manage daemons, inspect service & kernel boot messages |
 | **Networking** | `ss`, `ip`, `ping`, `tcpdump` | Sockets, network routing, packet capture & latency |
-| **Storage** | `df`, `du`, `lsblk`, `mount`, `fdisk` | Disk capacity, tree sizes, block mapping & partition edits |
-| **Performance** | `free`, `vmstat`, `lsof`, `uptime` | Memory tracking, I/O bottlenecks, open descriptors |
+| **Storage & Search** | `df`, `du`, `ncdu`, `find`, `lsblk`, `mount`, `fdisk` | Disk capacity, tree sizes, interactive disk usage, file search |
+| **Performance & Hardware** | `free`, `vmstat`, `htop`, `btop`, `sensors`, `inxi`, `lsof`, `uptime` | Resource visualization, hardware specs, sensors, I/O bottlenecks |
 | **User Administration** | `useradd`, `usermod`, `passwd`, `chage` | User creation, group membership, password aging rules |
-| **Automation & Remote** | `crontab`, `rsync`, `ssh`, `scp` | Scheduled tasks, delta backups, remote access |
+| **Automation & Remote** | `crontab`, `rsync`, `ssh`, `scp`, `wget` | Scheduled tasks, delta backups, remote access, web downloads |
 | **Security** | `ufw` | Host port filtering & inbound rule configuration |

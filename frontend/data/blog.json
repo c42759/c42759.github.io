@@ -105,11 +105,11 @@
   },
   {
     "id": 14,
-    "slug": "25-essential-linux-commands",
-    "title": "25 Essential Linux Commands Every Developer Should Know",
+    "slug": "31-essential-linux-commands",
+    "title": "31 Essential Linux Commands Every Developer Should Know",
     "date": "2026-10-14",
-    "excerpt": "A practical guide to 25 essential Linux commands for system administration, networking, performance monitoring, and automation.",
-    "content_file": "2026-10-14-25-essential-linux-commands.md"
+    "excerpt": "A practical guide to 31 essential Linux commands for system administration, networking, performance monitoring, hardware inspection, and automation.",
+    "content_file": "2026-10-14-31-essential-linux-commands.md"
   },
   {
     "id": 15,
