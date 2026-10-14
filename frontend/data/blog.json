@@ -110,5 +110,13 @@
     "date": "2026-10-14",
     "excerpt": "A practical guide to 25 essential Linux commands for system administration, networking, performance monitoring, and automation.",
     "content_file": "2026-10-14-25-essential-linux-commands.md"
+  },
+  {
+    "id": 15,
+    "slug": "10-essential-ssh-commands",
+    "title": "10 Essential SSH Commands Every Developer and Sysadmin Should Know",
+    "date": "2026-10-14",
+    "excerpt": "Master key generation, remote deployment, port forwarding tunnels, jump bastions, and debugging with these 10 essential SSH commands.",
+    "content_file": "2026-10-14-10-essential-ssh-commands.md"
   }
 ]
