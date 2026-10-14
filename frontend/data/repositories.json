@@ -1,5 +1,17 @@
 [
   {
+    "title": "Walpaca",
+    "description": "A self-hosted, multi-device web client for local and cloud AI models inspired by Alpaca GTK. Features multi-model chat, image recognition, Kokoro TTS integration, and direct SQLite database compatibility.",
+    "url": "https://github.com/c42759/walpaca",
+    "icon": "bot"
+  },
+  {
+    "title": "AniBots",
+    "description": "A modular RPG built with Godot and SQLite. Features a decoupled Finite State Machine for Active Time Battle (ATB) logic and dynamic data-driven entity assembly.",
+    "url": "https://github.com/c42759/AniBots",
+    "icon": "game"
+  },
+  {
     "title": "bingo",
     "description": "A digital Bingo app built to replace screaming numbers at family Christmas gatherings! Features a large-screen TV mode, light/dark themes, sound effects, auto-draw functionality, and a built-in leaderboard.",
     "url": "https://github.com/c42759/bingo",

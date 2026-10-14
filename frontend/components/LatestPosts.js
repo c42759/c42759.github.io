@@ -1,6 +1,31 @@
+'use client';
+
+import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 
 export default function LatestPosts({ posts }) {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  const visiblePosts = useMemo(() => {
+    if (!posts || posts.length === 0) return [];
+    const now = isClient ? new Date() : null;
+
+    return [...posts]
+      .filter((post) => {
+        if (now) {
+          const postDate = post.date.includes('T') ? new Date(post.date) : new Date(post.date + 'T00:00:00');
+          if (postDate > now) return false;
+        }
+        return true;
+      })
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, 4);
+  }, [posts, isClient]);
+
   if (!posts || posts.length === 0) return null;
 
   return (
@@ -12,11 +37,7 @@ export default function LatestPosts({ posts }) {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {[...posts]
-          .filter((post) => new Date(post.date) <= new Date())
-          .sort((a, b) => new Date(b.date) - new Date(a.date))
-          .slice(0, 4)
-          .map((post) => (
+        {visiblePosts.map((post) => (
             <article
               key={post.id}
               className="group flex flex-col justify-between p-6 bg-white dark:bg-[#1a1c1e] rounded-2xl border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 hover:bg-gray-50 dark:hover:bg-cv-dark/20 transition-all duration-300 shadow-sm dark:shadow-none"
