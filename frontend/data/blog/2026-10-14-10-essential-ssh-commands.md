@@ -130,23 +130,43 @@ sftp -P 2222 developer@files.example.com
 
 ---
 
-## 8. Local Port Forwarding (SSH Tunneling)
+## 8. Port Forwarding & Reverse Tunneling (-L, -R)
 ```bash
+# Local port forwarding
 ssh -L 8080:host:80 user@host
+
+# Remote (reverse) port forwarding
+ssh -R 9000:localhost:3000 user@host
 ```
 
-Local port forwarding creates an encrypted tunnel between a local port on your machine and a destination address accessible from the remote host. Syntax: `-L [LOCAL_PORT]:[DESTINATION_HOST]:[DESTINATION_PORT]`.
+SSH supports bidirectional port forwarding:
+- **Local Forwarding (`-L [LOCAL_PORT]:[DEST_HOST]:[DEST_PORT]`)**: Routes connections from a local port on your machine to a destination reachable by the remote SSH server. Ideal for accessing remote private databases or internal dashboards.
+- **Remote / Reverse Forwarding (`-R [REMOTE_PORT]:[DEST_HOST]:[DEST_PORT]`)**: Routes connections hitting a port on the remote server back to a local service running on your machine. Ideal for sharing local dev servers or testing incoming webhooks.
 
-This is useful for accessing remote databases (e.g., PostgreSQL or Redis) or internal dashboards (e.g., Grafana) bound strictly to `127.0.0.1` on the server without exposing them to the public internet.
+### Examples
 
 ```bash
-# Access remote PostgreSQL database (port 5432) via localhost:15432
-# -N prevents opening a shell, -f runs in background
+# 1. Access remote PostgreSQL (5432) locally on port 15432
 ssh -N -f -L 15432:localhost:5432 admin@db-server.internal
 
-# Connect local client tool to localhost:15432
-psql -h localhost -p 15432 -U postgres
+# 2. Expose local dev server (port 3000) on remote server's port 9000
+ssh -N -f -R 9000:localhost:3000 deployer@public-server.com
+
+# 3. Forward multiple distinct ports in one command
+# (Local 8080->web:80, Local 5432->db:5432, Remote 9000->local 3000)
+ssh -N -f \
+  -L 8080:web.internal:80 \
+  -L 5432:db.internal:5432 \
+  -R 9000:localhost:3000 \
+  deployer@bastion.internal
+
+# 4. Forward a range of ports (e.g., 8000-8005) via bash brace expansion
+ssh -N -f $(for p in {8000..8005}; do printf -- "-L %s:localhost:%s " "$p" "$p"; done) deployer@target.internal
 ```
+
+> [!NOTE]
+> For reverse tunnels (`-R`) accessible to external machines (not just localhost on remote host), ensure `GatewayPorts yes` is set in `/etc/ssh/sshd_config` on the remote server. For broad port ranges, consider Dynamic Forwarding (`ssh -D 1080 user@host`) with SOCKS5.
+
 
 ---
 
