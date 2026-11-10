@@ -118,5 +118,13 @@
     "date": "2026-10-14",
     "excerpt": "Master key generation, remote deployment, port forwarding tunnels, jump bastions, and debugging with these 10 essential SSH commands.",
     "content_file": "2026-10-14-10-essential-ssh-commands.md"
+  },
+  {
+    "id": 16,
+    "slug": "mastering-tmux-on-linux",
+    "title": "Mastering TMUX on Linux: Session Management, Shortcuts, and Mouse Integration",
+    "date": "2026-11-10",
+    "excerpt": "A practical guide to terminal multiplexing with TMUX on Linux: session persistence, attach and detach workflows, pane splits, essential shortcuts, and mouse enablement.",
+    "content_file": "2026-11-10-mastering-tmux-on-linux.md"
   }
 ]
