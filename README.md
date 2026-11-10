@@ -17,6 +17,14 @@ A modern, responsive Developer Curriculum Vitae (CV) and Portfolio built with [N
   - `app/`: Next.js App Router pages and layouts.
   - `components/`: Reusable React components.
   - `data/`: Content and data for the CV/Portfolio.
+
+## 📊 Google Analytics (GA4) Configuration
+
+To enable Google Analytics 4 tracking, set `NEXT_PUBLIC_GA_MEASUREMENT_ID` in `frontend/.env.local` (or in GitHub Actions repository variables/secrets):
+
+```env
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+```
 - `.github/workflows/main.yml`: CI/CD pipeline that builds and deploys the project to GitHub Pages automatically on push.
 - `docker-compose.yml`: Local Docker development environment setup.
 

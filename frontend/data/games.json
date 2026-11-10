@@ -577,8 +577,8 @@
     "cover": "/games/knights_and_merchants.jpg",
     "description": "Classic medieval economy and strategy.",
     "completion": 0,
-    "evaluation": "-",
-    "hoursPlayed": "-",
+    "evaluation": "4",
+    "hoursPlayed": "+500",
     "releaseDate": "1998",
     "platform": "PC",
     "style": "RTS",
@@ -729,8 +729,8 @@
     "cover": "/games/dota_2.jpg",
     "description": "The highly competitive and deep action RTS.",
     "completion": 0,
-    "evaluation": "-",
-    "hoursPlayed": "-",
+    "evaluation": "4",
+    "hoursPlayed": "241",
     "releaseDate": "2013",
     "platform": "PC",
     "style": "MOBA",
@@ -832,16 +832,16 @@
     "title": "Game Dev Tycoon",
     "cover": "/games/game_dev_tycoon.jpg",
     "description": "Start a game studio in the 80s and conquer the market.",
-    "completion": 0,
-    "evaluation": "-",
-    "hoursPlayed": "-",
+    "completion": 100,
+    "evaluation": "4",
+    "hoursPlayed": "-27",
     "releaseDate": "2012",
     "platform": "PC",
     "style": "Simulation",
     "objectives": [
       {
         "description": "Release a 10/10 Game",
-        "completed": false
+        "completed": true
       },
       {
         "description": "Reach the AAA Phase",
@@ -849,7 +849,7 @@
       },
       {
         "description": "Create your own console",
-        "completed": false
+        "completed": true
       }
     ]
   },

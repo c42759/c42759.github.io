@@ -12,8 +12,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Carlos Quintinha",
+  metadataBase: new URL("https://c42759.github.io"),
+  title: "Carlos Quintinha | Software Architect & Tech Reviewer",
   description: "The digital home of Carlos Quintinha. Discover my experience in software architecture, read my tech blog, and explore my workspace and gaming interests.",
+  icons: {
+    icon: "/icon.svg",
+  },
   openGraph: {
     images: [
       {
@@ -28,6 +32,7 @@ export const metadata = {
 
 import { ThemeProvider } from "@/components/ThemeProvider";
 import StickyMenu from '@/components/StickyMenu';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export default function RootLayout({ children }) {
   return (
@@ -35,6 +40,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <GoogleAnalytics />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="min-h-screen bg-background text-foreground font-sans selection:bg-cv-orange selection:text-white pb-20">
             <main className="flex flex-col items-center w-full">
