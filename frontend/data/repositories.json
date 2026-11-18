@@ -1,5 +1,11 @@
 [
   {
+    "title": "DCS",
+    "description": "Display Configuration Switcher (DCS) for GNOME Shell. Quickly toggle and manage multi-monitor layout presets, resolutions, scaling, and display orientations from the system menu.",
+    "url": "https://gitlab.com/c42759/dcs-gnome-extension",
+    "icon": "display"
+  },
+  {
     "title": "Walpaca",
     "description": "A self-hosted, multi-device web client for local and cloud AI models inspired by Alpaca GTK. Features multi-model chat, image recognition, Kokoro TTS integration, and direct SQLite database compatibility.",
     "url": "https://github.com/c42759/walpaca",
