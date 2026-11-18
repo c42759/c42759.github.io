@@ -56,7 +56,7 @@ export default function Blog({ posts }) {
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search posts..."
             aria-label="Search blog posts by title or excerpt"
-            className="w-full pl-9 pr-8 py-2 bg-white dark:bg-[#1a1c1e] text-sm text-cv-dark dark:text-white rounded-xl border border-gray-200 dark:border-cv-dark/30 focus:outline-none focus:border-cv-orange focus:ring-1 focus:ring-cv-orange transition-all placeholder:text-gray-400 dark:placeholder:text-gray-500"
+            className="w-full pl-9 pr-8 py-2 bg-white dark:bg-[#1D1D20] text-sm text-cv-dark dark:text-white rounded-xl border border-gray-200 dark:border-cv-dark/30 focus:outline-none focus:border-cv-orange focus:ring-1 focus:ring-cv-orange transition-all placeholder:text-gray-400 dark:placeholder:text-gray-500"
           />
           {searchQuery && (
             <button
@@ -74,7 +74,7 @@ export default function Blog({ posts }) {
 
       <div className="flex flex-col space-y-6">
         {filteredPosts.length === 0 ? (
-          <div className="p-8 text-center bg-white dark:bg-[#1a1c1e] rounded-2xl border border-gray-200 dark:border-cv-dark/30">
+          <div className="p-8 text-center bg-white dark:bg-[#1D1D20] rounded-2xl border border-gray-200 dark:border-cv-dark/30">
             <p className="text-gray-600 dark:text-cv-light">
               No posts found matching &ldquo;<span className="font-semibold text-cv-orange">{searchQuery}</span>&rdquo;.
             </p>
@@ -89,7 +89,7 @@ export default function Blog({ posts }) {
           filteredPosts.map((post) => (
             <article
               key={post.id}
-              className="group block p-6 bg-white dark:bg-[#1a1c1e] rounded-2xl border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 hover:bg-gray-50 dark:hover:bg-cv-dark/20 transition-all duration-300 shadow-sm dark:shadow-none"
+              className="group block p-6 bg-white dark:bg-[#1D1D20] rounded-2xl border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 hover:bg-gray-50 dark:hover:bg-cv-dark/20 transition-all duration-300 shadow-sm dark:shadow-none"
             >
               <div className="flex flex-col md:flex-row md:items-baseline md:justify-between mb-3">
                 <h3 className="text-xl font-bold text-cv-dark dark:text-white group-hover:text-cv-orange transition-colors">

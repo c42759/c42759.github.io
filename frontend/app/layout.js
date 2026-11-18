@@ -33,6 +33,7 @@ export const metadata = {
 import { ThemeProvider } from "@/components/ThemeProvider";
 import StickyMenu from '@/components/StickyMenu';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import EditorialFooter from '@/components/EditorialFooter';
 
 export default function RootLayout({ children }) {
   return (
@@ -42,15 +43,13 @@ export default function RootLayout({ children }) {
       >
         <GoogleAnalytics />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="min-h-screen bg-background text-foreground font-sans selection:bg-cv-orange selection:text-white pb-20">
+          <div className="min-h-screen bg-background text-foreground font-sans selection:bg-cv-orange selection:text-white pb-10">
             <main className="flex flex-col items-center w-full">
               <StickyMenu />
               {children}
             </main>
 
-            <footer className="text-center text-cv-light/50 text-sm mt-12 py-6 border-t border-cv-dark/30 max-w-4xl mx-auto w-full">
-              &copy; {new Date().getFullYear()} Carlos Quintinha. Crafted with Next.js and Tailwind CSS.
-            </footer>
+            <EditorialFooter />
           </div>
         </ThemeProvider>
       </body>

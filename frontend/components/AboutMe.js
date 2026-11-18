@@ -11,7 +11,7 @@ export default function AboutMe() {
     <section className="w-full max-w-4xl mx-auto px-6 py-12">
       <div className="relative group">
         <div className="absolute -inset-1 bg-gradient-to-r from-cv-orange to-cv-peach rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
-        <div className="relative bg-white/90 dark:bg-[#1a1c1e]/90 backdrop-blur-sm border border-black/10 dark:border-cv-dark/50 rounded-2xl p-8 shadow-xl">
+        <div className="relative bg-white/90 dark:bg-[#1D1D20]/90 backdrop-blur-sm border border-black/10 dark:border-cv-dark/50 rounded-2xl p-8 shadow-xl">
           <div className="flex items-center space-x-3 mb-6">
             <div className="p-2 bg-cv-orange/10 rounded-lg">
               <svg className="w-6 h-6 text-cv-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">

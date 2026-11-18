@@ -36,7 +36,7 @@ const icons = {
 
 export default function Repositories({ repos }) {
   return (
-    <section className="w-full max-w-4xl mx-auto px-6 py-12">
+    <section className="w-full max-w-6xl mx-auto px-6 py-16 border-t border-black/10 dark:border-cv-dark/40">
       <h2 className="text-2xl md:text-3xl font-bold text-cv-dark dark:text-white mb-8 text-center font-sans relative inline-block left-1/2 -translate-x-1/2">
         Main Repositories
         <span className="absolute -bottom-2 left-0 w-full h-1 bg-cv-orange rounded-full opacity-70"></span>

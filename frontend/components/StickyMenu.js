@@ -10,6 +10,7 @@ const sections = [
   { id: 'educational-path', href: '/educational-path', label: 'Educational Path', icon: false },
   { id: 'setup', href: '/setup', label: 'My Setup', icon: false },
   { id: 'blog', href: '/blog', label: 'Blog', icon: false },
+  { id: 'gallery', href: '/gallery', label: 'Gallery', icon: false },
   { id: 'gaming', href: '/gaming', label: 'Gamer Life', icon: false },
 ];
 
@@ -18,7 +19,7 @@ export default function StickyMenu() {
 
   return (
     <div className="sticky top-4 z-50 flex justify-center w-full px-4 mb-8 pointer-events-none transition-all duration-300">
-      <nav className="pointer-events-auto bg-white/80 dark:bg-[#1a1c1e]/80 backdrop-blur-md border border-black/10 dark:border-cv-dark/50 shadow-lg rounded-full px-2 py-2 flex flex-wrap justify-center items-center gap-1 sm:gap-2">
+      <nav className="pointer-events-auto bg-white/80 dark:bg-[#1D1D20]/80 backdrop-blur-md border border-black/10 dark:border-cv-dark/50 shadow-lg rounded-full px-2 py-2 flex flex-wrap justify-center items-center gap-1 sm:gap-2">
         {sections.map((section) => {
           // If the pathname starts with the section's href, it is active
           // Note: for home ('/'), it should only be active if pathname is exactly '/'

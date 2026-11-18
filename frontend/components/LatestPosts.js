@@ -29,7 +29,7 @@ export default function LatestPosts({ posts }) {
   if (!posts || posts.length === 0) return null;
 
   return (
-    <section className="w-full max-w-4xl mx-auto px-6 py-12 mb-12">
+    <section className="w-full max-w-6xl mx-auto px-6 py-16 border-t border-black/10 dark:border-cv-dark/40">
 
       <h2 className="text-2xl md:text-3xl font-bold text-cv-dark dark:text-white mb-8 text-center font-sans relative inline-block left-1/2 -translate-x-1/2">
         Latest Blog Posts
@@ -40,7 +40,7 @@ export default function LatestPosts({ posts }) {
         {visiblePosts.map((post) => (
             <article
               key={post.id}
-              className="group flex flex-col justify-between p-6 bg-white dark:bg-[#1a1c1e] rounded-2xl border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 hover:bg-gray-50 dark:hover:bg-cv-dark/20 transition-all duration-300 shadow-sm dark:shadow-none"
+              className="group flex flex-col justify-between p-6 bg-white dark:bg-[#1D1D20] rounded-2xl border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 hover:bg-gray-50 dark:hover:bg-cv-dark/20 transition-all duration-300 shadow-sm dark:shadow-none"
             >
               <div>
                 <time className="text-xs font-medium text-gray-500 dark:text-cv-light/60 block mb-2">

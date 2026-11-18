@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Pixie in the Sun",
+    "location": "Aveiro, Portugal",
+    "year": "2025",
+    "src": "/gallery/Belly-Up_Dog_in_Sunlit_Grass.jpg",
+    "width": 1086,
+    "height": 1448,
+    "aspect": "3/4",
+    "description": "Sunlit relaxation on lush green grass."
+  },
+  {
+    "id": 2,
+    "title": "Super Soco TC Blue Motorcycle",
+    "location": "Aveiro, Portugal",
+    "year": "2025",
+    "src": "/gallery/Blue_Motorcycle_on_a_Cobblestone_Street.jpg",
+    "width": 1448,
+    "height": 1086,
+    "aspect": "3/2",
+    "description": "My second electric motorcycle, the first was also a Super Soco TC Blue."
+  },
+  {
+    "id": 3,
+    "title": "We got married",
+    "location": "Ovar, Aveiro, Portugal",
+    "year": "2025, december 23rd",
+    "src": "/gallery/Candid_formal_pair_at_the_table.jpg",
+    "width": 1536,
+    "height": 1024,
+    "aspect": "3/2",
+    "description": "Only the two of us."
+  },
+  {
+    "id": 4,
+    "title": "Super Soco TC MAX Electric Drive",
+    "location": "Aveiro, Portugal",
+    "year": "2025",
+    "src": "/gallery/Dark_Super_Soco_on_Concrete.jpg",
+    "width": 1448,
+    "height": 1086,
+    "aspect": "3/2",
+    "description": "My 3rd electric motorcycle, an amazing Super Soco TC MAX."
+  },
+  {
+    "id": 5,
+    "title": "My familly of four",
+    "location": "Portugal",
+    "year": "2024",
+    "src": "/gallery/Family_garden_under_terracotta_tiles.jpg",
+    "width": 1536,
+    "height": 1024,
+    "aspect": "3/2",
+    "description": "Warm afternoon gathering in a rustic garden courtyard under terracotta tiles."
+  },
+  {
+    "id": 6,
+    "title": "Test Driving a Tesla Model 3 Highland",
+    "location": "Portugal",
+    "year": "2025",
+    "src": "/gallery/Passenger-side_portrait_in_a_Tesla.jpg",
+    "width": 1086,
+    "height": 1448,
+    "aspect": "3/4",
+    "description": "I was not expecting to fully achieve my expectations, but checked every box."
+  },
+  {
+    "id": 7,
+    "title": "Me",
+    "location": "Portugal",
+    "year": "2025",
+    "src": "/gallery/portrait_1.jpg",
+    "width": 1086,
+    "height": 1448,
+    "aspect": "3/4",
+    "description": "Candid personal portrait with soft natural contrast."
+  },
+  {
+    "id": 8,
+    "title": "Me",
+    "location": "Portugal",
+    "year": "2025",
+    "src": "/gallery/portrait_2.jpg",
+    "width": 1086,
+    "height": 1448,
+    "aspect": "3/4",
+    "description": "Relaxed portrait framed against ambient architecture."
+  },
+  {
+    "id": 9,
+    "title": "Sunlit Journey",
+    "location": "Portugal",
+    "year": "2025",
+    "src": "/gallery/Smiling_Pair_in_a_Sunlit_Car.jpg",
+    "width": 1672,
+    "height": 941,
+    "aspect": "3/2",
+    "description": "Road trip smiles captured in bright golden hour sunlight."
+  },
+  {
+    "id": 10,
+    "title": "Happy is his name",
+    "location": "Aveiro, Portugal",
+    "year": "2025",
+    "src": "/gallery/Top-down_dog_on_grass_with_sneakers.jpg",
+    "width": 1448,
+    "height": 1086,
+    "aspect": "3/2",
+    "description": "Top-down candid perspective of afternoon play on the lawn."
+  },
+  {
+    "id": 11,
+    "title": "White Tesla Model 3 Highland after being washed",
+    "location": "Aveiro, Portugal",
+    "year": "2025",
+    "src": "/gallery/White_Tesla_on_Wet_Driveway.jpg",
+    "width": 1448,
+    "height": 1086,
+    "aspect": "3/2",
+    "description": "Reflections on wet stone driveway framing the white electric sedan."
+  }
+]

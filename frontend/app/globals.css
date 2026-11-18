@@ -2,19 +2,23 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
+  --color-storm-grey: #5A6068;
+  --color-matte-black: #1D1D20;
+  --color-safety-orange: #FF5F00;
+
   --color-cv-light: #DDDCDB;
-  --color-cv-orange: #FD7B41;
-  --color-cv-peach: #EDBF9B;
-  --color-cv-dark: #3C4044;
+  --color-cv-orange: #FF5F00;
+  --color-cv-peach: #FFA066;
+  --color-cv-dark: #5A6068;
 }
 
 :root {
-  --background: #f8f9fa;
-  --foreground: #121212;
+  --background: #f4f5f6;
+  --foreground: #1D1D20;
 }
 
 .dark {
-  --background: #121212;
+  --background: #1D1D20;
   --foreground: #DDDCDB;
 }
 
@@ -40,12 +44,12 @@ body {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #121212;
+  background: #1D1D20;
 }
 ::-webkit-scrollbar-thumb {
-  background: #3C4044;
+  background: #5A6068;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #FD7B41;
+  background: #FF5F00;
 }

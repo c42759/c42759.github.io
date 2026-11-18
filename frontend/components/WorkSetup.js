@@ -29,7 +29,7 @@ export default function WorkSetup({ setup }) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {Object.entries(categorized).map(([category, items], idx) => (
-          <div key={idx} className="bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/40 rounded-2xl p-6 hover:border-cv-orange/50 transition-colors duration-300 shadow-sm dark:shadow-none">
+          <div key={idx} className="bg-white dark:bg-[#1D1D20] border border-gray-200 dark:border-cv-dark/40 rounded-2xl p-6 hover:border-cv-orange/50 transition-colors duration-300 shadow-sm dark:shadow-none">
             <h3 className="text-lg font-bold text-cv-orange dark:text-cv-peach mb-4 flex items-center border-b border-gray-200 dark:border-cv-dark/50 pb-2">
               {category}
             </h3>

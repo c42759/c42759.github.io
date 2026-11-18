@@ -43,7 +43,7 @@ export default function GamerLife({ games }) {
               placeholder="Search games..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 text-cv-dark dark:text-white text-sm rounded-lg focus:ring-cv-orange focus:border-cv-orange block w-full sm:w-48 pl-9 p-2 outline-none"
+              className="bg-white dark:bg-[#1D1D20] border border-gray-200 dark:border-cv-dark/30 text-cv-dark dark:text-white text-sm rounded-lg focus:ring-cv-orange focus:border-cv-orange block w-full sm:w-48 pl-9 p-2 outline-none"
             />
             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
               <svg className="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -55,7 +55,7 @@ export default function GamerLife({ games }) {
           <select
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
-            className="bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 text-cv-dark dark:text-white text-sm rounded-lg focus:ring-cv-orange focus:border-cv-orange block p-2 outline-none"
+            className="bg-white dark:bg-[#1D1D20] border border-gray-200 dark:border-cv-dark/30 text-cv-dark dark:text-white text-sm rounded-lg focus:ring-cv-orange focus:border-cv-orange block p-2 outline-none"
           >
             <option value="All">All Games</option>
             <option value="Completed">Completed</option>
@@ -66,7 +66,7 @@ export default function GamerLife({ games }) {
           <div className="flex bg-gray-100 dark:bg-cv-dark/20 p-1 rounded-lg">
             <button
               onClick={() => setViewMode('card')}
-              className={`p-1.5 rounded-md transition-colors ${viewMode === 'card' ? 'bg-white dark:bg-[#1a1c1e] text-cv-orange shadow-sm' : 'text-gray-500 hover:text-cv-dark dark:hover:text-white'}`}
+              className={`p-1.5 rounded-md transition-colors ${viewMode === 'card' ? 'bg-white dark:bg-[#1D1D20] text-cv-orange shadow-sm' : 'text-gray-500 hover:text-cv-dark dark:hover:text-white'}`}
               title="Card View"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,7 +75,7 @@ export default function GamerLife({ games }) {
             </button>
             <button
               onClick={() => setViewMode('list')}
-              className={`p-1.5 rounded-md transition-colors ${viewMode === 'list' ? 'bg-white dark:bg-[#1a1c1e] text-cv-orange shadow-sm' : 'text-gray-500 hover:text-cv-dark dark:hover:text-white'}`}
+              className={`p-1.5 rounded-md transition-colors ${viewMode === 'list' ? 'bg-white dark:bg-[#1D1D20] text-cv-orange shadow-sm' : 'text-gray-500 hover:text-cv-dark dark:hover:text-white'}`}
               title="List View"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -94,7 +94,7 @@ export default function GamerLife({ games }) {
         <div className={viewMode === 'card' ? "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" : "flex flex-col space-y-4"}>
           {filteredGames.map((game) => (
             viewMode === 'card' ? (
-              <div key={game.id} className="group relative rounded-2xl overflow-hidden bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cv-orange/10 flex flex-col h-full">
+              <div key={game.id} className="group relative rounded-2xl overflow-hidden bg-white dark:bg-[#1D1D20] border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cv-orange/10 flex flex-col h-full">
                 {/* Game Cover */}
                 <div className="relative h-48 w-full bg-gray-200 dark:bg-cv-dark/20 overflow-hidden shrink-0">
                   <Image
@@ -104,7 +104,7 @@ export default function GamerLife({ games }) {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500 blur-sm brightness-50 group-hover:blur-none group-hover:brightness-100" 
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#1a1c1e] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#1D1D20] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity"></div>
 
                   {/* Rating at the top right */}
                   <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-md px-2 py-1 rounded-full flex items-center space-x-1 border border-white/10 z-10">
@@ -114,7 +114,7 @@ export default function GamerLife({ games }) {
                 </div>
 
                 {/* Game Content */}
-                <div className="p-5 flex flex-col flex-1 relative z-10 -mt-8 bg-gradient-to-b from-transparent to-white dark:to-[#1a1c1e] pt-8">
+                <div className="p-5 flex flex-col flex-1 relative z-10 -mt-8 bg-gradient-to-b from-transparent to-white dark:to-[#1D1D20] pt-8">
                   <h3 className="text-lg font-bold text-cv-dark dark:text-white mt-2 mb-2 leading-tight">{game.title}</h3>
 
                   <div className="flex flex-wrap items-center gap-2 mb-3">
@@ -165,7 +165,7 @@ export default function GamerLife({ games }) {
                 </div>
               </div>
             ) : (
-              <div key={game.id} className="group relative flex flex-col sm:flex-row rounded-2xl overflow-hidden bg-white dark:bg-[#1a1c1e] border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:shadow-xl hover:shadow-cv-orange/10">
+              <div key={game.id} className="group relative flex flex-col sm:flex-row rounded-2xl overflow-hidden bg-white dark:bg-[#1D1D20] border border-gray-200 dark:border-cv-dark/30 hover:border-cv-orange/50 transition duration-300 hover:shadow-xl hover:shadow-cv-orange/10">
                 {/* Game Cover */}
                 <div className="relative h-48 sm:h-auto sm:w-56 sm:shrink-0 bg-gray-200 dark:bg-cv-dark/20 overflow-hidden">
                   <Image
@@ -175,8 +175,8 @@ export default function GamerLife({ games }) {
                     sizes="(max-width: 640px) 100vw, 224px"
                     className="object-cover group-hover:scale-105 transition-transform duration-500 blur-sm brightness-50 group-hover:blur-none group-hover:brightness-100" 
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#1a1c1e] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity hidden sm:block"></div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#1a1c1e] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity sm:hidden"></div>
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#1D1D20] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity hidden sm:block"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#1D1D20] via-transparent to-transparent opacity-100 group-hover:opacity-70 transition-opacity sm:hidden"></div>
 
                   {/* Rating at the top right */}
                   <div className="absolute top-3 right-3 sm:left-3 sm:right-auto bg-black/60 backdrop-blur-md px-2 py-1 rounded-full flex items-center space-x-1 border border-white/10 z-10">
@@ -186,7 +186,7 @@ export default function GamerLife({ games }) {
                 </div>
 
                 {/* Game Content */}
-                <div className="p-5 sm:p-6 flex flex-col flex-1 relative z-10 bg-white dark:bg-[#1a1c1e]">
+                <div className="p-5 sm:p-6 flex flex-col flex-1 relative z-10 bg-white dark:bg-[#1D1D20]">
                   <h3 className="text-xl font-bold text-cv-dark dark:text-white mb-2 leading-tight">{game.title}</h3>
 
                   <div className="flex flex-wrap items-center gap-2 mb-3">

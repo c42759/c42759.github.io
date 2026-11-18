@@ -17,6 +17,16 @@ A modern, responsive Developer Curriculum Vitae (CV) and Portfolio built with [N
   - `app/`: Next.js App Router pages and layouts.
   - `components/`: Reusable React components.
   - `data/`: Content and data for the CV/Portfolio.
+- `.github/workflows/main.yml`: CI/CD pipeline that builds and deploys the project to GitHub Pages automatically on push.
+- `docker-compose.yml`: Local Docker development environment setup.
+
+## 🎨 Design & Color Schema
+
+The UI adopts a 60-30-10 industrial color balance:
+
+- **Storm Grey (Main - 60%)**: `rgb(90, 96, 104)` (`#5A6068`) - Primary visual foundation, structural borders, subtle dividers, muted typography, and UI framework.
+- **Matte Black (Secondary - 30%)**: `rgb(29, 29, 32)` (`#1D1D20`) - Dark mode canvas, card surfaces, navigation backdrops, and contrast depth.
+- **Safety Orange (Accent - 10%)**: `rgb(255, 95, 0)` (`#FF5F00`) - Interactive callouts, active indicators, hover accents, badges, and focus outlines.
 
 ## 📊 Google Analytics (GA4) Configuration
 
@@ -25,8 +35,6 @@ To enable Google Analytics 4 tracking, set `NEXT_PUBLIC_GA_MEASUREMENT_ID` in `f
 ```env
 NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
 ```
-- `.github/workflows/main.yml`: CI/CD pipeline that builds and deploys the project to GitHub Pages automatically on push.
-- `docker-compose.yml`: Local Docker development environment setup.
 
 ## 🛠️ Local Development
 

@@ -35,7 +35,7 @@ export default async function BlogPost({ params }) {
           Back to Blog
         </Link>
 
-        <article className="w-full max-w-4xl mx-auto bg-white dark:bg-[#1a1c1e] p-8 md:p-12 rounded-3xl shadow-sm border border-gray-200 dark:border-cv-dark/30">
+        <article className="w-full max-w-4xl mx-auto bg-white dark:bg-[#1D1D20] p-8 md:p-12 rounded-3xl shadow-sm border border-gray-200 dark:border-cv-dark/30">
           <header className="mb-8">
             <h1 className="text-3xl md:text-5xl font-bold text-cv-dark dark:text-white mb-4 tracking-tight">
               {post.title}

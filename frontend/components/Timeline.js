@@ -14,7 +14,7 @@ export default function Timeline({ title, items }) {
         {items.map((item, index) => (
           <div key={index} className="relative pl-8 md:pl-10 group">
             {/* Timeline Dot */}
-            <div className="absolute -left-[11px] top-1.5 w-5 h-5 bg-white dark:bg-[#121212] border-2 border-cv-orange rounded-full group-hover:bg-cv-orange transition-colors duration-300 z-10"></div>
+            <div className="absolute -left-[11px] top-1.5 w-5 h-5 bg-white dark:bg-[#1D1D20] border-2 border-cv-orange rounded-full group-hover:bg-cv-orange transition-colors duration-300 z-10"></div>
 
             <div className="flex flex-col md:flex-row md:items-baseline md:justify-between mb-2">
               <h3 className="text-xl font-bold text-cv-dark dark:text-white mb-1 md:mb-0 group-hover:text-cv-orange dark:group-hover:text-cv-peach transition-colors">
