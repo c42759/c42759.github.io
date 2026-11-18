@@ -126,5 +126,13 @@
     "date": "2026-11-10",
     "excerpt": "A practical guide to terminal multiplexing with TMUX on Linux: session persistence, attach and detach workflows, pane splits, essential shortcuts, and mouse enablement.",
     "content_file": "2026-11-10-mastering-tmux-on-linux.md"
+  },
+  {
+    "id": 17,
+    "slug": "vanto-branding",
+    "title": "VA’NTO: Turning a Family Name into a Handmade Brand Identity",
+    "date": "2026-11-18",
+    "excerpt": "How a casual conversation at Festival do Pão de Ló in Ovar sparked VA’NTO—a handmade clothing and accessories brand concept rooted in the Vaz Pinto family name.",
+    "content_file": "2026-11-18-vanto-branding.md"
   }
 ]
